@@ -1,2 +1,1 @@
-# studies
-Code snippets from my studies
+# Learning exercises from my studies
