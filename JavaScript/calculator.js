@@ -1,4 +1,6 @@
 /*----------
+Source: YDKJS Up & Going
+
 It should calculate the total price of your phone purchase. 
 It should keep purchasing phones until you run out of money in your bank account. 
 You'll also buy accessories for each phone as long as your purchase amount is below your mental spending threshold.
