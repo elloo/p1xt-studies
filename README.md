@@ -12,4 +12,5 @@ This repository is a record of all the code I've written to learn.
 #### Algorithms
 * [freeCodeCamp](https://www.freecodecamp.org/)
 #### Github
+* [Git Guide](http://rogerdudler.github.io/git-guide/)
 * [HTML Previewer](https://htmlpreview.github.io/)
