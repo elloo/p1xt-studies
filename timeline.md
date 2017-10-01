@@ -8,3 +8,5 @@ A timeline of the proud little moments during my studies.
   * Started using Git and GitHub on a daily basis
   * Started keeping a daily log in the [Chingu Slack](https://chingucentral.slack.com)
   * Surpassed my old progress mark in [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
+* Octoboer 2017
+  * [Job Ready 2.0](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md#what-now-) was released on the first day of this month! I switched over immediately.
