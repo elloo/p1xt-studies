@@ -1,6 +1,3 @@
-// My little experiment with closure
-// I'm testing my memory and understanding here
-
 function signed(signoff, first, last){
 
 	function log(){
