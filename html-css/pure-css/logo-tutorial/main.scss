@@ -1,0 +1,102 @@
+$russian-violet: #33124C;
+$sunglow: #FDD231;
+$peach: #FEEEB7;
+$chrome-yellow: #FDAD00;
+$spanish-orange: #EA6C00;
+
+body{
+    background: $russian-violet;
+}
+.box{
+    position: relative;
+    display: block;
+    margin: auto;
+    margin-top: 8%;
+    border: solid 3px white;
+    height: 400px;
+    width: 600px;
+}
+.bottom-large-triangle{
+  position: absolute;
+  width: 50%;
+  left: 25%;
+  bottom: 10%;
+  height: 50%;
+  background: $spanish-orange;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+.bottom-medium-triangle{
+  position: absolute;
+  width: 28%;
+  left: 35.9%;
+  bottom: 10%;
+  height: 50%;
+  background: $chrome-yellow;
+  -webkit-clip-path: polygon(50% 100%, 0 0, 100% 0);
+clip-path: polygon(50% 100%, 0 0, 100% 0);
+}
+.top-centre-triangle{
+  position:absolute;
+  top: 15%;
+  left: 35.7%;
+  height: 25%;
+  width: 28.5%;
+  background: $peach;
+-webkit-clip-path: polygon(100% 100%, 0 100%, 50% 0);
+clip-path: polygon(100% 100%, 0 100%, 50% 0);
+}
+.top-edge-left-triangle{
+  position: absolute;
+  left: 25%;
+  top: 16.1%;
+  height: 26%;
+  width: 11%;
+  background: $chrome-yellow;
+  -webkit-clip-path: polygon(100% 100%, 0 100%, 100% 3%);
+  clip-path: polygon(100% 100%, 0 100%, 100% 3%);
+}
+.top-edge-left-triangle{
+  position: absolute;
+  left: 25%;
+  top: 16.1%;
+  height: 24%;
+  width: 11%;
+  background: $chrome-yellow;
+}
+.top-edge-right-triangle{
+  position: absolute;
+  right: 25%;
+  top: 16.1%;
+  height: 24%;
+  width: 11%;
+  background: $chrome-yellow;
+  -webkit-clip-path: polygon(100% 100%, 0 100%, 0 0);
+  clip-path: polygon(100% 100%, 0 100%, 0 0);
+}
+.top-filler-left-triangle{
+  position: absolute;
+  background: $sunglow;
+  height: 30%;
+  width: 14.4%;
+  top: 14.75%;
+  left: 35.9%;
+  -webkit-clip-path: polygon(0 6%, 0 84%, 100% 0);
+  clip-path: polygon(0 6%, 0 84%, 100% 0);
+}
+.top-filler-right-triangle{
+  position: absolute;
+  background: $sunglow;
+  height: 30%;
+  width: 14.4%;
+  top: 14.75%;
+  right: 35.9%;
+-webkit-clip-path: polygon(100% 6%, 100% 84%, 0 0);
+clip-path: polygon(100% 6%, 100% 84%, 0 0);
+}
+@media (max-width: 600px) {
+   .box{    
+    width: 250px;
+    height: 175px;
+  }
+}
