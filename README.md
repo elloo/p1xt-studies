@@ -1,7 +1,5 @@
 This repository is a record of all the code I've written to learn.
 
-I do reviews on the weekend, commenting and refactoring where needed.
-
 ### Resources
 #### JavaScript
 * [Watch and Code](https://watchandcode.com/)
