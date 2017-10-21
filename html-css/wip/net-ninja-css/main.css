@@ -1,0 +1,14 @@
+/******* Header *******/
+header{
+    font-size: 32px;
+    color: cadetblue;
+}
+
+/******* Typography *******/
+p{
+    font-size: 18px;
+    color: cadetblue;
+}
+a{
+    color: steelblue;
+}
