@@ -102,13 +102,15 @@ clip-path: polygon(30% 10%, 0 40%, 20% 100%, 82% 100%, 100% 41%);
   top: 50%;
   left: 25%;
   background: $cadet-grey;
+  z-index: 2;
 }
 .trunk-top{
   position: absolute;
   background: $cadet-grey;
-  height: 90%;
+  height: 80%;
   width: 100%;
-  top: -30%;
+  top: -35%;
+  right: 0%;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
 clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   z-index: 3;

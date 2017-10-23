@@ -95,14 +95,16 @@
   height: 100%;
   top: 50%;
   left: 25%;
-  background: #91A8A4; }
+  background: #91A8A4;
+  z-index: 2; }
 
 .trunk-top {
   position: absolute;
   background: #91A8A4;
-  height: 90%;
+  height: 80%;
   width: 100%;
-  top: -30%;
+  top: -35%;
+  right: 0%;
   -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
   z-index: 3; }
