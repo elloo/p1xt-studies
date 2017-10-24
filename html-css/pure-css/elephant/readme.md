@@ -1,1 +1,0 @@
-View it in [CodePen](https://codepen.io/elloo/full/jGRJoQ/)

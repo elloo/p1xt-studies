@@ -1,3 +1,5 @@
-I created these pure CSS images to learn about positioning.
+#Codepen Links
 
-**To preview:** Please prepend `http://htmlpreview.github.io/?` to HTML file urls.
+* [Elephant](https://codepen.io/elloo/full/jGRJoQ/)
+* [Bear cub](https://codepen.io/elloo/full/WZmqya/)
+* [Beaver](https://codepen.io/elloo/full/rGgqNW/)
