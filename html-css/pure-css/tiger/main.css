@@ -214,7 +214,7 @@
   width: 55%;
   height: 50%;
   right: 22%;
-  bottom: -5%;
+  bottom: -15%;
   border-radius: 50%;
   z-index: 3; }
 
@@ -280,9 +280,9 @@
   border-left: 5px solid #283618;
   border-right: 5px solid #283618;
   border-radius: 30%;
-  height: 120%;
+  height: 130%;
   width: 50%;
-  top: -75%;
+  top: -85%;
   right: 23%; }
 
 .nose-tip {
@@ -309,7 +309,7 @@
   background: #FEFAE0;
   height: 40%;
   width: 40%;
-  top: 72%;
+  top: 81%;
   right: 30%;
   border-radius: 50%;
   z-index: 2; }
