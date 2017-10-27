@@ -216,7 +216,7 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 }
 .nose{
   position: absolute;
-  background: radial-gradient(circle at 50% 100%, $light-yellow 50%, $liver 55%);
+  background: radial-gradient(circle 300px at 50% -65%, $liver 50%, $light-yellow 50%);
   width: 55%;
   height: 50%;
   right: 22%;
@@ -228,56 +228,56 @@ clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
   position: absolute;
   background: $black-leather-jacket;
   width: 38%;
-  height: 2%;
-  left: 52%;
-  bottom: 23%;
+  height: 3%;
+  left: 60%;
+  bottom: 50%;
   border-radius: 40%;
   transform: rotate(-15deg);
 }
 .left-whisker-two{
   position: absolute;
   background: $black-leather-jacket;
-  width: 99%;
+  width: 100%;
   height: 100%;
-  left: -5%;
-  bottom: -300%;
+  left: -10%;
+  bottom: -450%;
   border-radius: 40%;
 }
 .left-whisker-three{
   position: absolute;
   background: $black-leather-jacket;
-  width: 80%;
+  width: 100%;
   height: 100%;
-  left: -10%;
-  bottom: -500%;
+  left: -30%;
+  bottom: -900%;
   border-radius: 40%;
 }
 .nose-right-whiskers{
   position: absolute;
   background: $black-leather-jacket;
-  width: 34%;
-  height: 2%;
-  right: 56%;
-  bottom: 23%;
+  width: 35%;
+  height: 3%;
+  right: 63%;
+  bottom: 50%;
   border-radius: 40%;
   transform: rotate(15deg);
 }
 .right-whisker-two{
   position: absolute;
   background: $black-leather-jacket;
-  width: 99%;
+  width: 100%;
   height: 100%;
-  right: -5%;
-  bottom: -300%;
+  right: -10%;
+  bottom: -450%;
   border-radius: 40%;
 }
 .right-whisker-three{
   position: absolute;
   background: $black-leather-jacket;
-  width: 80%;
+  width: 100%;
   height: 100%;
-  right: -10%;
-  bottom: -500%;
+  right: -30%;
+  bottom: -900%;
   border-radius: 40%;
 }
 .nose-bridge{
