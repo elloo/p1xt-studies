@@ -3,3 +3,4 @@
 * [Elephant](https://codepen.io/elloo/full/jGRJoQ/)
 * [Bear cub](https://codepen.io/elloo/full/WZmqya/)
 * [Beaver](https://codepen.io/elloo/full/rGgqNW/)
+* [Tiger](https://codepen.io/elloo/full/VMoXmg/)
