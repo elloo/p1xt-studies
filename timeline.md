@@ -10,4 +10,5 @@ A timeline of the proud little moments during my studies.
   * Surpassed my old progress mark in [CS50](https://www.edx.org/course/introduction-computer-science-harvardx-cs50x)
 * Octoboer 2017
   * [Job Ready 2.0](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md#what-now-) was released on the first day of this month! I switched over immediately.
-  * Solved crack.c! This was a toughie for me.
+  * Working on CS50. I solved crack.c! This was a toughie for me.
+  * Preparing for ["Suck less at CSS" November](https://medium.com/p1xts-blog/lets-make-november-suck-less-at-css-month-7fa7c80b5387). Started my [CSS Images](https://codepen.io/collection/DEeErQ/) CodePen collection.
