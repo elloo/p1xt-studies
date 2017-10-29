@@ -7,7 +7,7 @@ The hash function uses a set formula to assign every password to a unique encryp
 
 Crack.c was the first CS50 problem that made me trip up. I was just about to settle on submitting the less comfortable problem set when I found my solution.
 
-For my solution, a decent understanding of combinatronics is required. It helped to draw out how the different index positions would cycle through a given set of characters (52 for this problem).
+For my solution, a decent understanding of combinatronics is required. It helps to draw out how the different index positions would cycle through a given set of characters (52 for this problem).
 
 As always, simplification helped immensely. 
 
