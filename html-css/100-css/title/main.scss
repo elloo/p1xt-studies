@@ -1,0 +1,84 @@
+$darkblue: #43389f;
+$lightblue: #4ec6ca;
+$white: #ffffff;
+
+.box{
+    position: relative;
+    margin: auto;
+    background: linear-gradient(to top right, $darkblue 0, $lightblue);
+    font-family: Open Sans, sans-serif;
+    color: $white;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+    border-radius: 2px;
+    box-shadow: 1px 2px 10px 0 rgba(0,0,0,.3);
+}
+.center{
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+.number{
+    position: relative;
+    height: 100px;
+    width: 200px;
+}
+.oneDiag, .oneVert{
+    position: absolute;
+    background: $white;
+    top: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.2);
+}
+.oneDiag{
+    left: -16px;
+    height: 40px;
+    width: 20px;
+    -webkit-transform: rotate(50deg);
+    transform: rotate(50deg);
+}
+.oneVert{
+    left: 0;
+    height: 100px;
+    width: 24px;
+    z-index: 3;
+}
+.zeroFirst, .zeroSecond{
+    position: absolute;
+    border: 24px solid $white;
+    top: 0;
+    left: 17px;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 0 13px 0 rgba(0,0,0,.2);
+    z-index: 2;
+}
+.zeroSecond{
+    left: 100px;
+    z-index: 1;
+}
+.days, .challenge{
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    z-index: 4;
+}
+.days{
+    font-size: 81px;
+    line-height: 65px;
+    font-weight: 700;
+    margin-left: -8px;
+}
+.challenge{
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 300;
+    margin-left: -4px;
+}
