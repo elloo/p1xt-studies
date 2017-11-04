@@ -19,7 +19,7 @@ O(c<sup>n</sup>)|Exponential time|
 O(n!)|Factorial time|
 O(![Infinity symbol](symbols/infinity.png))|Infinite time|Stupid sort - random shuffle and check
 
-## What's the runtime?
+## Runtime examples
 
 ### O(m)
 

@@ -1,14 +1,24 @@
 # Daily Logs
 ## November 2017
 ### Day 2
-#### Things I did
-* Worked on html-css/100-css/menu-icon
-    * My first time working with CSS animations.
-#### Things I need to improve on
-* Need to take care when doing math.
+```diff
++ Worked on html-css/100-css/menu-icon
++   My first time working with CSS animations.
+- Need to take care with my math.
+```
 ### Day 3
-#### Things I did
-* Finished [Menu Icon](https://codepen.io/elloo/full/wPaLwy/)
-#### Things I need to improve on
-* Need to experiment with the animation-direction property. 
-    * The reverse property wasn't working.
+[Menu Icon](https://codepen.io/elloo/full/wPaLwy/)
+```diff
++ Finished Menu Icon
+- Need to experiment with the animation-direction property. 
+-  - The reverse property wasn't working.
+```
+
+### Day 4
+[computational-complexity.md](my-studies/notes/computational-complexity.md)
+```diff
++ Organised the repo structure.
++  - Had a lot of practice with `git rm`, `mkdir`, and `git mv`
++ Wrote computational-complexity.md
++  - Learned a lot about GitHub markdown and formatting mathematical symbols.
+```
