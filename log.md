@@ -1,4 +1,7 @@
 # Daily Logs
+
+(In addition to math and Anki studies.)
+
 ## November 2017
 ### Day 2
 ```diff
@@ -13,7 +16,7 @@
 
 + Finished Menu Icon
 
-- Need to experiment with the animation-direction property. 
+- TODO: Experiment with the animation-direction property. 
     The reverse property wasn't working.
 ```
 
@@ -24,4 +27,9 @@
     Had a lot of practice with `git rm`, `mkdir`, and `git mv`
 + Wrote computational-complexity.md
     Learned a lot about GitHub markdown and formatting mathematical symbols.
++ Submitted recover.c to submit50
+
+- TODO: Write notes for pset4
+    Found it very challenging/interesting to work with image files
+    NTS: fread function executed while being used in conditional test
 ```
