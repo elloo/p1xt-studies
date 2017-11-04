@@ -10,7 +10,7 @@ From fastest to slowest:
 Computational complexity class | Class name | Explanation / example
 ---|---|---
 O(1)|Constant time|Always takes a single operation in the worst case e.g. `return a + b`
-O(log n)|Logarithmic time|Double `n` means adding just one more step. Searching by repeatedly tearing a phonebook in half. 
+O(log n)|Logarithmic time|Double `n` means adding just one more step e.g. searching by repeatedly tearing a phonebook in half. 
 O(n)|Linear time|Always takes `n` operations in the worst case.
 O(n log n)|Linearithmic time|
 O(n<sup>2</sup>)|Quadratic time|
