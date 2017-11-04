@@ -1,5 +1,6 @@
 # Reflections on crack.c
-[Source](https://docs.cs50.net/problems/crack/crack.html)
+[Problem](https://docs.cs50.net/problems/crack/crack.html)
+[Code](https://github.com/elloo/my-studies/blob/master/notes/crack.md)
 
 Essentially, crack.c asks the student to cycle through all possibilities of a password. 
 
