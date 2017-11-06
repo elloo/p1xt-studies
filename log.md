@@ -40,6 +40,7 @@ _A log of my daily activities (math practice and Anki excluded)._
 + Cloned "The Pyramide"
     Learned a lot about using clip-path shapes and the transform-origin property.
     Also practiced using basic SASS techniques - particularly mixins.
++ Watched through Week 5 of CS50 and started pset5
     
 - NTS: Write neat code!
 ```
