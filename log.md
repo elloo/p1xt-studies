@@ -34,7 +34,7 @@ _A log of my daily activities (math practice and Anki excluded)._
     NTS: fread function executed while being used in conditional test.
 ```
 
-### Day 5
+### Day 6
 [The Pyramide](https://codepen.io/elloo/full/dZXXdy/)
 ```diff
 + Cloned "The Pyramide"
