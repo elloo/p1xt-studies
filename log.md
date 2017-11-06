@@ -1,11 +1,11 @@
 # Daily Logs
 
-(In addition to math and Anki studies.)
+_A log of my daily activities (math practice and Anki excluded)._
 
 ## November 2017
 ### Day 2
 ```diff
-+ Worked on html-css/100-css/menu-icon
++ Worked on html-css/100-css/menu-icon.
     My first time working with CSS animations.
 
 - Need to take care with my math.
@@ -21,15 +21,25 @@
 ```
 
 ### Day 4
-[computational-complexity.md](my-studies/notes/computational-complexity.md)
+[computational-complexity.md](notes/computational-complexity.md)
 ```diff
 + Organised the repo structure.
-    Had a lot of practice with `git rm`, `mkdir`, and `git mv`
-+ Wrote computational-complexity.md
+    Had a lot of practice with `git rm`, `mkdir`, and `git mv`.
++ Wrote computational-complexity.md.
     Learned a lot about GitHub markdown and formatting mathematical symbols.
-+ Submitted recover.c to submit50
++ Submitted recover.c to submit50.
 
-- TODO: Write notes for pset4
-    Found it very challenging/interesting to work with image files
-    NTS: fread function executed while being used in conditional test
+- TODO: Write notes for pset4.
+    Found it very challenging/interesting to work with image files.
+    NTS: fread function executed while being used in conditional test.
+```
+
+### Day 5
+[The Pyramide](https://codepen.io/elloo/full/dZXXdy/)
+```diff
++ Cloned "The Pyramide"
+    Learned a lot about using clip-path shapes and the transform-origin property.
+    Also practiced using basic SASS techniques - particularly mixins.
+    
+- NTS: Write neat code!
 ```
