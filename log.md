@@ -44,3 +44,11 @@ _A log of my daily activities (math practice and Anki excluded)._
     
 - NTS: Write neat code!
 ```
+
+### Day 8
+```diff
++ More work on pset5
+    Watched a couple of shorts on hash tables and tries
+    Answered the question set
+    Started on the load function
+```
