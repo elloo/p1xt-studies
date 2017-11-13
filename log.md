@@ -1,6 +1,6 @@
 # Daily Logs
 
-_A log of my daily activities (math practice and Anki excluded)._
+_A log of my daily activities (math practice and Anki excluded).
 
 ## November 2017
 ### Day 2
@@ -51,4 +51,11 @@ _A log of my daily activities (math practice and Anki excluded)._
     Watched a couple of shorts on hash tables and tries
     Answered the question set
     Started on the load function
+```
+
+### Day 13
+[Loading](https://codepen.io/elloo/full/mqmjVB/)
+```diff
++ Finished "Loading"    
+    Played around alot with the box-shadow property and keyframe timing
 ```
