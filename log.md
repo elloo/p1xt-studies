@@ -58,4 +58,5 @@ _A log of my daily activities (math practice and Anki excluded).
 ```diff
 + Finished "Loading"    
     Played around alot with the box-shadow property and keyframe timing
++ Continued working on the load function for CS50's pset5.
 ```
