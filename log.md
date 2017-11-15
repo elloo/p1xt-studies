@@ -60,3 +60,13 @@ _A log of my daily activities (math practice and Anki excluded).
     Played around alot with the box-shadow property and keyframe timing
 + Continued working on the load function for CS50's pset5.
 ```
+
+### Day 14
+```diff
++ Worked on pset5
+```
+
+### Day 15
+```diff
++ More work on pset5! Last pset in C...
+```
