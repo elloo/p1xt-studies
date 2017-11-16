@@ -70,3 +70,8 @@ _A log of my daily activities (math practice and Anki excluded).
 ```diff
 + More work on pset5! Last pset in C...
 ```
+
+### Day 16
+```diff
++ Finished the load, check and size functions. Just unload left now.
+```
