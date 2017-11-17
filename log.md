@@ -75,3 +75,11 @@ _A log of my daily activities (math practice and Anki excluded).
 ```diff
 + Finished the load, check and size functions. Just unload left now.
 ```
+
+### Day 17
+```diff
++ Finally finished speller.c!
+    Using a low-level language such as C helps to develop an appreciation for what goes on behind-the-scenes when using higher-level languages like JavaScript. 
+
+- TODO: Write-up of linked list data structures
+```
