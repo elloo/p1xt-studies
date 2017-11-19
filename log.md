@@ -83,3 +83,8 @@ _A log of my daily activities (math practice and Anki excluded).
 
 - TODO: Write-up of linked list data structures
 ```
+
+### Day 20
+```diff
++ Saw CS50 Week 6 lecture
+```
