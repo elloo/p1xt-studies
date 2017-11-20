@@ -86,5 +86,6 @@ _A log of my daily activities (math practice and Anki excluded).
 
 ### Day 20
 ```diff
-+ Saw CS50 Week 6 lecture
++ Saw CS50 Week 6 and 7 lectures
+    Great introductory material on how the internet works (week 6) and machine learning (week 7).
 ```
