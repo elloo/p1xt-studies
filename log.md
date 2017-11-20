@@ -89,3 +89,8 @@ _A log of my daily activities (math practice and Anki excluded).
 + Saw CS50 Week 6 and 7 lectures
     Great introductory material on how the internet works (week 6) and machine learning (week 7).
 ```
+
+### Day 21
+```diff
++ Saw CS50 Week 8 lecture.
+```
