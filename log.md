@@ -93,4 +93,6 @@ _A log of my daily activities (math practice and Anki excluded).
 ### Day 21
 ```diff
 + Saw CS50 Week 8 lecture.
++ Ported mario.c to Python.
+    Looking back at pset1, I wonder if I've neglected to comment on my newer code?
 ```
