@@ -1,6 +1,4 @@
-# Ewe Lin Loo
-
-## 2018 Progress
+# 2018 Progress
 
 [Source](https://github.com/P1xt/speedstudy)
 
@@ -9,7 +7,7 @@ Total Points earned: 10
 
 | Date Finished | Activity | Points | Links |
 | ------------- | -------- | ------ | ----- |
-| 03/01/2018 | Physical activity | 10 | Swimming |
+| 03/01/2018 | Physical activity (Swimming) | 10 | - |
 
 ---
 
