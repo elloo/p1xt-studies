@@ -8,6 +8,7 @@ Total Points earned: 10
 | Date Finished | Activity | Points | Links |
 | ------------- | -------- | ------ | ----- |
 | 03/01/2018 | Physical activity (Swimming) | 10 | - |
+| 04/01/2018 | Physical activity (Yoga) | 10 | - |
 
 ---
 
