@@ -14,3 +14,6 @@ A timeline of the proud little moments during my studies.
   * Preparing for ["Suck less at CSS" November](https://medium.com/p1xts-blog/lets-make-november-suck-less-at-css-month-7fa7c80b5387). Started my [CSS Images](https://codepen.io/collection/DEeErQ/) CodePen collection.
 * November 2017
   * Finished all C psets (1-5) of CS50! I literally went into fetal position a couple of times...
+* January 2018
+  * Added point card from [P1xt's SpeedStudy](https://github.com/P1xt/speedstudy)
+  * Transitioned into CS50 2018 material

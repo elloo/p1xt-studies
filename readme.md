@@ -1,14 +1,18 @@
-# 2018 Progress
+# 2018 
+
+My main objective for this year is to gain the foundational skillset of a web developer by following P1xt's [JS 2.0](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md)) guide. I'll be studying JavaScript, HTML and CSS with some coverage of CS fundamentals and math.
+
+## Progress
 
 [Source](https://github.com/P1xt/speedstudy)
 
 Courses Completed: 0  
-Total Points earned: 10
+Total Points earned: 20
 
-| Date Finished | Activity | Points | Links |
+| Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
-| 03/01/2018 | Physical activity (Swimming) | 10 | - |
-| 04/01/2018 | Physical activity (Yoga) | 10 | - |
+| 03/01/2018 | Physical activity | 10 | Swimming |
+| 04/01/2018 | Physical activity | 10 | Pilates / stretches |
 
 ---
 

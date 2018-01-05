@@ -18,7 +18,7 @@ int main(void)
             {
                 if (pyramidSpaces < height - 1)
                 {
-                printf(" ");
+                    printf(" ");
                 }
             }
             /* Printing first pyramid */
