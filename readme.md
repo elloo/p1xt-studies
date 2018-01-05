@@ -1,18 +1,24 @@
 # 2018 
 
-My main objective for this year is to gain the foundational skillset of a web developer by following P1xt's [JS 2.0](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md)) guide. I'll be studying JavaScript, HTML and CSS with some coverage of CS fundamentals and math.
+My main objective for this year is to gain the foundational skillset of a web developer by following P1xt's [JS 2.0 Guide](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-javascript-edition-2.0.md). I'll be studying JavaScript, HTML and CSS with some coverage of CS fundamentals and math.
 
 ## Progress
 
 [Source](https://github.com/P1xt/speedstudy)
 
 Courses Completed: 0  
-Total Points earned: 20
+Total Points earned: 85
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
-| 03/01/2018 | Physical activity | 10 | Swimming |
-| 04/01/2018 | Physical activity | 10 | Pilates / stretches |
+| 03/01/2018 | Exercise | 15 | Swimming (45 mins) |
+| 03/01/2018 | Musical instrument | 10 | Voice |
+| 04/01/2018 | Exercise | 20 | Pilates / stretches (60 mins) |
+| 04/01/2018 | Musical instrument | 10 | Voice |
+| 04/01/2018 | Khan Academy | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 05/01/2018 | Khan Academy | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 05/01/2018 | Musical instrument | 10 | Voice |
+| WIP | MOOC | 500 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
 
 ---
 
