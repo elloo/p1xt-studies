@@ -7,7 +7,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 [Source](https://github.com/P1xt/speedstudy)
 
 Courses Completed: 0  
-Total Points earned: 245
+Total Points earned: 275
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -33,6 +33,8 @@ Total Points earned: 245
 | 13/01/2018 | Musical instrument | 10 | Voice |
 | 14/01/2018 | Musical instrument | 10 | Voice |
 | 15/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 16/01/2018 | Khan Academy (60mins) | 20 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 16/01/2018 | Musical instrument | 10 | Voice |
 | WIP | MOOC | 500 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
 
 ---
