@@ -7,7 +7,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 [Source](https://github.com/P1xt/speedstudy)
 
 Courses Completed: 0  
-Total Points earned: 275
+Total Points earned: 315
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -15,26 +15,30 @@ Total Points earned: 275
 | 03/01/2018 | Musical instrument | 10 | Voice |
 | 04/01/2018 | Exercise | 20 | Pilates / stretches (60 mins) |
 | 04/01/2018 | Musical instrument | 10 | Voice |
-| 04/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
-| 05/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 04/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 05/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 05/01/2018 | Musical instrument | 10 | Voice |
 | 06/01/2018 | Exercise | 10 | Swimming (~35 mins, 750m) |
-| 06/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 06/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 06/01/2018 | Musical instrument | 10 | Voice |
 | 07/01/2018 | Musical instrument | 10 | Voice |
 | 07/01/2018 | Exercise | 20 | Yoga (60 mins) |
 | 08/01/2018 | Musical instrument | 10 | Voice |
-| 09/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 09/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 11/01/2018 | Musical instrument | 10 | Voice |
 | 11/01/2018 | Exercise | 10 | Swimming (~30 mins, 750m) |
-| 12/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 12/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 12/01/2018 | Musical instrument | 10 | Voice |
-| 13/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 13/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 13/01/2018 | Musical instrument | 10 | Voice |
 | 14/01/2018 | Musical instrument | 10 | Voice |
-| 15/01/2018 | Khan Academy (30mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
-| 16/01/2018 | Khan Academy (60mins) | 20 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 15/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 16/01/2018 | Khan Academy (60 mins) | 20 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 16/01/2018 | Musical instrument | 10 | Voice |
+| 17/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 17/01/2018 | Musical instrument | 10 | Voice |
+| 18/01/2018 | Exercise | 10 | Swimming (~35 mins, 750m) |
+| 18/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | WIP | MOOC | 500 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
 
 ---
