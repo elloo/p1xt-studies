@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    History
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h1>History</h1>
+    </div>
+    <div>
+        <p>(Ordered by descending time)</p>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" class="tTitle">Time</th>
+                    <th scope="col" class="tTitle">Stock</th>
+                    <th scope="col" class="tTitle">Amount</th>
+                    <th scope="col" class="tTitle">Price per unit</th>
+                    <th scope="col" class="tTitle">Fund</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for transaction in transactions %}
+                <tr>
+                    <td>{{transaction.time}}</td>
+                    <td>{{transaction.symbol}}</td>
+                    <td>{{transaction.amount}}</td>
+                    <td>{{transaction.price}}</td>
+                    <td>{{transaction.total}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+{% endblock %}

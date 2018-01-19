@@ -1,0 +1,52 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h1>Home</h1>
+    </div>
+    <div>
+        <table>
+            <thead>
+                <tr>
+                    <th scope="col" class="tTitle">Stock</th>
+                    <th scope="col" class="tTitle">Amount</th>
+                    <th scope="col" class="tTitle">Price per unit</th>
+                    <th scope="col" class="tTitle">Total value</th>
+                </tr>
+            </thead>
+            <tbody>
+            {% for stock in stocks %}
+                <tr>
+                    <td>{{stock.symbol}}</td>
+                    <td>{{stock.amount}}</td>
+                    <td>{{stock.price}}</td>
+                    <td>{{stock.total}}</td>
+                </tr>
+            {% endfor %}
+            </tbody>
+            <tfooter>
+                <tr>
+                    <td class="tTitle" colspan="3">Grand total:</td>
+                    <td>{{grand}}</td>
+                </tr>
+                <tr>
+                    <td class="tTitle" colspan="3">Account fund:</td>
+                    <td>{{cash}}</td>
+                </tr>
+            </tfooter>
+        </table>
+    </div>
+     <div id="funding">
+        <form action="/" method="post">
+            <div class="form-group">
+                <label>Add funding:</label>
+                <input autofocus class="form-control" name="funding" placeholder="$(Whole numbers only)" type="number" min="0" step="1"/>
+            </div>
+            <button class="btn btn-primary" type="submit">Confirm</button>
+        </form>
+    </div>
+{% endblock %}
