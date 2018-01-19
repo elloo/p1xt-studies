@@ -8,6 +8,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 
 Courses Completed: 0  
 [Extracurriculars](daily-logs/extracurriculars)
+
 Total Points earned: 345
 
 | Date Finished | Activity | Points | Link / Description |
