@@ -1,5 +1,0 @@
-
-[certs]
-certifi==2016.9.26
-
-[ssl]

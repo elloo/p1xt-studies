@@ -50,7 +50,7 @@ def lookup(symbol):
     try:
 
         # GET CSV
-        url = "http://download.finance.yahoo.com/d/quotes.csv?f=snl1&s={symbol}"
+        url = f"http://download.finance.yahoo.com/d/quotes.csv?f=snl1&s={symbol}"
         webpage = urllib.request.urlopen(url)
 
         # Read CSV
@@ -80,7 +80,7 @@ def lookup(symbol):
     try:
 
         # GET CSV
-        url = "https://www.alphavantage.co/query?apikey=NAJXWIA8D6VN6A3K&datatype=csv&function=TIME_SERIES_INTRADAY&interval=1min&symbol={symbol}"
+        url = f"https://www.alphavantage.co/query?apikey=NAJXWIA8D6VN6A3K&datatype=csv&function=TIME_SERIES_INTRADAY&interval=1min&symbol={symbol}"
         webpage = urllib.request.urlopen(url)
 
         # Parse CSV
@@ -111,4 +111,4 @@ def lookup(symbol):
 
 def usd(value):
     """Formats value as USD."""
-    return "${value:.2f}"
+    return f"${value:.2f}"
