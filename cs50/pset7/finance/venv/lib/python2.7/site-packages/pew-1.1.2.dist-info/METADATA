@@ -1,0 +1,41 @@
+Metadata-Version: 2.0
+Name: pew
+Version: 1.1.2
+Summary: tool to manage multiple virtualenvs written in pure python
+Home-page: https://github.com/berdario/pew
+Author: Dario Bertini
+Author-email: berdario+pypi@gmail.com
+License: MIT License
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Requires-Dist: virtualenv (>=1.11)
+Requires-Dist: virtualenv-clone (>=0.2.5)
+Requires-Dist: setuptools (>=17.1)
+Requires-Dist: argparse; python_version=="2.6"
+Requires-Dist: pathlib; python_version=="2.6"
+Requires-Dist: backports.shutil-get-terminal-size; python_version=="2.6"
+Requires-Dist: shutilwhich; python_version=="2.6"
+Requires-Dist: pathlib; python_version=="2.7"
+Requires-Dist: backports.shutil-get-terminal-size; python_version=="2.7"
+Requires-Dist: shutilwhich; python_version=="2.7"
+Requires-Dist: pathlib; python_version=="3.2"
+Requires-Dist: backports.shutil-get-terminal-size; python_version=="3.2"
+Requires-Dist: shutilwhich; python_version=="3.2"
+Requires-Dist: pathlib; python_version=="3.3"
+Requires-Dist: psutil (==5.3.1); sys_platform=="win32"
+Provides-Extra: pythonz
+Requires-Dist: pythonz-bd (>=1.10.2); extra == 'pythonz'
+
+Python Env Wrapper is a set of commands to manage multiple [virtual environments](http://pypi.python.org/pypi/virtualenv). Pew can create, delete and copy your environments, using a single command to switch to them wherever you are, while keeping them in a single (configurable) location.
+
+Virtualenvs makes it easier to work on more than one project at a time without introducing conflicts in their dependencies.
+
+Pew is completely shell-agnostic and thus works on bash, zsh, fish, powershell, etc.
+
+For the documentation, you might want to read here:
+https://github.com/berdario/pew#usage
+
