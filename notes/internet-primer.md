@@ -32,7 +32,7 @@ Modern home networks consist of access points that combine a router, a modem, a 
 
 Modern business networks or large-scane wide-area networks (WANs) still have these as separate devices to allow the size of their network to scale more easily.
 
-_Routers_ 
+__Routers__ 
 
 Allow data requests from all the devices on your local network to be processed through a single IP address.
 
@@ -54,7 +54,7 @@ A large, interconnected network created by weaving together local, small network
 
 * Think of these small networks as isolated communities with a single road leading in or out.
 
-_IP (Internet Protocol)_
+__IP (Internet Protocol)__
 
 A set of rules that defines how local, small networks communicate.
 
@@ -63,7 +63,7 @@ A set of rules that defines how local, small networks communicate.
 * A connectionless protocol with no necessarily defined path from sender to receiver and vice versa.
     * Allows for flexibility in the network. Traffic jams can be avoided by re-routing.
     
-_TCP (Transmission Control Protocol)_
+__TCP (Transmission Control Protocol)__
 
 Complements IP (think: TCP/IP).
 Deals with any lost packets.
