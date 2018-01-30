@@ -1,0 +1,28 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Add quote
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h2>Add quote</h2>
+    </div>
+    <div>
+        <form action="/add" method="post">
+            <div class="form-group">
+                <input autofocus class="form-control" name="category" placeholder="Category (optional)" type="text"/>
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="quote" placeholder="Quote" type="text"/>
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="source" placeholder="Source" type="text"/>
+            </div>
+            <div class="form-group">
+                <input class="form-control" name="url" placeholder="URL (optional)" type="text"/>
+            </div>
+            <button class="btn btn-primary" type="submit">Submit</button>
+        </form>
+    </div>
+{% endblock %}

@@ -1,0 +1,61 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Edit quote
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h2>Edit quote</h2>
+    </div>
+    <div>
+        <form action="/edit" method="post">
+            <div class="form-group dropdown">
+                <select name="category" onchange="this.form.submit()" class="btn btn-secondary dropdown-toggle">
+                    <option value="" class="dropdown-item disabled" disabled selected>Select category</option>
+                    <option class="dropdown-item">All</option>
+                    {% for category in categories %}
+                        <option class="dropdown-item">{{ category.category }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </form>
+
+        <form action="/edit" method="post">
+            <div class="form-group">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Category</th>
+                            <th scope="col">Quote</th>
+                            <th scope="col">Source</th>
+                            <th scope="col">Select</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for quote in quotes %}
+                            <tr>
+                                <td>{{quote.category}}</td>
+                                <td>{{quote.quote}}</td>
+                                <td><a href="{{quote.url}}">{{quote.source}}</a></td>
+                                <td><input type="radio" name="quote" value="{{quote.quote}}"></td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+
+                <div class="form-group">
+                    <label for="newCat">Category:</label>
+                    <input type="text" id="newCat" name="newCat">
+                    <label for="newURL">URL:</label>
+                    <input type="text" id="newURL" name="newURL" placeholder="Exclude https://">
+                    <button class="btn btn-primary" type="submit">Update</button>
+                    <input type="submit" value="Delete quote" name="delete" class="btn btn-danger">
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+
+{% endblock %}

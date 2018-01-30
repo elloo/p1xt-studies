@@ -1,0 +1,46 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block main %}
+    <div>
+        <h2>Home</h2>
+    </div>
+    <div>
+        <form action="/" method="post">
+            <div class="form-group dropdown">
+                <select name="category" onchange="this.form.submit()" class="btn btn-secondary dropdown-toggle">
+                    <option value="" class="dropdown-item disabled" disabled selected>Select category</option>
+                    <option class="dropdown-item">All</option>
+                    {% for category in categories %}
+                        <option class="dropdown-item">{{ category.category }}</option>
+                    {% endfor %}
+                </select>
+            </div>
+        </form>
+
+        <div class="form-group">
+            <table class="table table-hover table-bordered">
+                <thead>
+                    <tr>
+                        <th scope="col">Category</th>
+                        <th scope="col">Quote</th>
+                        <th scope="col">Source</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for quote in quotes %}
+                        <tr>
+                            <td>{{quote.category}}</td>
+                            <td>{{quote.quote}}</td>
+                            <td><a href="{{quote.url}}">{{quote.source}}</a></td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+{% endblock %}
