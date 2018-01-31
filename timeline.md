@@ -17,3 +17,4 @@ A timeline of the proud little moments during my studies.
 * January 2018
   * Added point card from [P1xt's SpeedStudy](https://github.com/P1xt/speedstudy)
   * Transitioned into CS50 2018 material
+  * Completed CS50! Yay!!
