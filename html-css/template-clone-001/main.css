@@ -1,0 +1,167 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+
+/*------------------------------
+
+        GRID
+
+------------------------------*/
+
+.grid,
+. container {
+    margin: 0 auto;
+    width: 960px;
+}
+
+.grid, 
+.col-2,
+.col-4{
+    padding: 0 15px;
+}
+
+.container {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+header {
+    padding-top: 150px;
+    margin-bottom: 100px;
+}
+
+div {
+    margin-bottom: 35px;
+}
+
+.col-1 {
+    display: inline-block;
+    width: 100%;
+    vertical-align: top;
+}
+
+.col-2 {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+.col-4 {
+    display: inline-block;
+    width: 25%;
+    vertical-align: top;
+}
+
+
+
+/*------------------------------
+
+        TYPOGRAPHY
+
+------------------------------*/
+
+h1, h2, h3, p, a {
+    margin-bottom: 22px;
+}
+
+h1, h2, h3 {
+    color: #d1a94d;
+}
+
+nav a {
+    color: black;
+}
+
+footer p,
+footer a {
+    color: lightgrey;
+}
+
+footer aside p {
+    color: black;
+}
+
+
+/*------------------------------
+
+        BUTTONS
+
+------------------------------*/
+
+.btn {
+    border-radius: 6px;
+    display: inline-block;
+    margin: 0 5px;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.btn-alt, 
+a.btn:hover {
+    color: white;
+    background-color: #d1a94d;
+}
+
+.btn-secondary{
+    color: white;
+    background-color: grey;
+}
+
+a.btn-secondary:hover{
+    background-color: #606060;
+}
+
+
+/*------------------------------
+
+        HOME
+
+------------------------------*/
+
+#main {
+    width: 100%;
+}
+
+#copy {
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    float: left;
+    color: #d1a94d;
+}
+
+nav {
+    float: right;
+    margin: 22px;
+}
+
+.hero {
+    padding: 22px 0 66px 0;
+    text-align: center;
+}
+
+.hero img {
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    clear: both;
+    background-color: #1f2021;
+}
+
+footer aside {
+    background-color: lightgrey;
+    padding: 10px;
+}
