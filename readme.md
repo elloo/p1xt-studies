@@ -34,7 +34,7 @@ Total Points earned: 1135
 | 30/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 31/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 31/01/2018 | MOOC | 500 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
-| WIP | Template clone project | 100 - 400 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
+| WIP | Template clone project | 100 - 400 | [Template](http://www.free-css.com/free-css-templates/page223/classic) |
 
 ---
 
