@@ -40,3 +40,4 @@
 | 31/01/2018 | Musical instrument | 10 | Voice |
 | 01/02/2018 | Exercise | 15 | Swimming (~45 mins) |
 | 01/02/2018 | Exercise | 20 | Weight training (60 mins) |
+| 02/02/2018 | Musical instrument | 10 | Voice |

@@ -9,6 +9,7 @@
 body, html {
     margin: 0;
     height: 100%;
+    position: relative;
 }
 
 
@@ -24,24 +25,13 @@ body, html {
     width: 960px;
 }
 
-.grid, 
+.grid,
+.col-1,
 .col-2,
-.col-4{
-    padding: 0 15px;
-}
-
-.container {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-
-header {
-    padding-top: 150px;
-    margin-bottom: 100px;
-}
-
-div {
-    margin-bottom: 35px;
+.col-4,
+.col-1-3,
+.col-2-3{
+    padding: 15px 17.5px;
 }
 
 .col-1 {
@@ -62,7 +52,53 @@ div {
     vertical-align: top;
 }
 
+.col-3-4 {
+    display: inline-block;
+    width: 75%;
+    vertical-align: top;
+}
 
+.col-1-3 {
+    display: inline-block;
+    width: 33.3%;
+    vertical-align: top;
+}
+
+.col-2-3 {
+    display: inline-block;
+    width: 66.6%;
+    vertical-align: top;
+}
+
+
+/*------------------------------
+
+        SPACING
+
+------------------------------*/
+
+.container {
+    padding-left: 175px;
+    padding-right: 175px;
+}
+
+header {
+    padding-top: 125px;
+    margin-bottom: 100px;
+}
+
+div {
+    margin-bottom: 20px;
+}
+
+.module {
+    margin-top: 20px;
+    margin-bottom: 65px;
+}
+
+#fText {
+    padding: 20px;
+}
 
 /*------------------------------
 
@@ -70,25 +106,86 @@ div {
 
 ------------------------------*/
 
-h1, h2, h3, p, a {
+h1, h2, h3, h3 a, p, a, footer a, footer p, input, textarea {
     margin-bottom: 22px;
+    font-family: 'Open Sans', helvetica, arial, sans-serif;
+    font-weight: 300;
 }
 
 h1, h2, h3 {
     color: #d1a94d;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 44px;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+h3 {
+    font-size: 22px;
+}
+
+h3 a {
+    font-size: 22px;   
+}
+
+.hero p {
+    font-size: 22px;
+    line-height: 44px;
 }
 
 nav a {
     color: black;
+    font-weight: 300;
+    font-size: 20px;
 }
 
-footer p,
-footer a {
+p, a, input, textarea {
+    color: #8c8c8c;
+    font-size: 18px;
+    line-height: 2;
+}
+
+input, textarea {
+    padding: 0 10px;
     color: lightgrey;
 }
 
-footer aside p {
+a {
+    color: #006699;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+footer p {
+    color: lightgrey;
+}
+
+footer a {
+    color: #cccc66;
+}
+
+#fText p{
     color: black;
+    line-height: 34px;
+}
+
+#copy {
+    color: #999999;
+    margin-bottom: 22px;
+}
+
+hr {
+    background-color: #cccccc;
+    height: 1px;
+    border: none;
 }
 
 
@@ -121,6 +218,34 @@ a.btn-secondary:hover{
     background-color: #606060;
 }
 
+button {
+    border: solid;
+}
+
+
+/*------------------------------
+
+        FOOTER
+
+------------------------------*/
+
+footer {
+    background-color: #191919;
+    height: 700px;
+}
+
+footer aside {
+    background-color: #cccccc;
+    padding: 10px;
+}
+
+/* Ref: http://www.codeblocq.com/2016/09/The-mysterious-4px-gap-in-between-images/ */
+footer img {
+    margin: 0.5px -2px;
+    border: 0;
+    padding: 0;
+}
+
 
 /*------------------------------
 
@@ -132,10 +257,6 @@ a.btn-secondary:hover{
     width: 100%;
 }
 
-#copy {
-    margin: 0;
-    padding: 0;
-}
 .logo {
     float: left;
     color: #d1a94d;
@@ -143,12 +264,18 @@ a.btn-secondary:hover{
 
 nav {
     float: right;
-    margin: 22px;
+    margin: 32px 22px 0 22px;
 }
 
 .hero {
-    padding: 22px 0 66px 0;
+
+    padding: 10px 0 66px 0;
     text-align: center;
+}
+
+.hero p {
+    margin: 0 auto;
+    width: 50%;
 }
 
 .hero img {
@@ -156,12 +283,30 @@ nav {
     margin: 0 auto;
 }
 
-footer {
-    clear: both;
-    background-color: #1f2021;
+
+/*------------------------------
+
+        CONTACT
+
+------------------------------*/
+
+input:focus,
+textarea:focus{
+    outline: 0;
+    border: 1px solid #d1a94d;
 }
 
-footer aside {
-    background-color: lightgrey;
-    padding: 10px;
+input,
+textarea {
+    width: 100%;
+    margin: 0 auto;
+    
+}
+
+input {
+    height: 50px;
+}
+
+textarea {
+    height: 185px; 
 }
