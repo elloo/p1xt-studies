@@ -9,7 +9,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 Courses Completed: 0  
 [Extracurriculars](daily-logs/extracurriculars)
 
-Total Points earned: 1300
+Total Points earned: 1360
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -35,6 +35,7 @@ Total Points earned: 1300
 | 31/01/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 31/01/2018 | MOOC | 500 | [CS50: Introduction to Computer Science](https://courses.edx.org/courses/course-v1:HarvardX+CS50+X/course/) |
 | 02/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 05/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 02/02/2018 | Basic project | 100 | [Template clone](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/template-clone-001) |
 
 ---
