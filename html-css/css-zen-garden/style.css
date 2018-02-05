@@ -1,4 +1,116 @@
 /*
-Stock photo: https://www.pexels.com/photo/bloom-book-botanical-cactus-403571/
 Colour palette: https://coolors.co/f6bd60-f7ede2-f5cac3-84a59d-f28482
 */
+
+
+
+/*-----------------
+
+MAIN BACKGROUND
+
+-----------------*/
+
+body {
+    margin: 0;
+    
+    background-image: url(images/background-image.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    
+    background-size: cover;
+}
+
+
+
+/*-----------------
+
+POSITIONING
+
+-----------------*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+
+
+/*-----------------
+
+INTRO
+
+-----------------*/
+
+.intro {
+    margin: 5%;
+}
+
+header {
+    background-color: #F7EDE2;
+    border-radius: 50%;
+    border: 20px solid #F6BD60;
+    text-align: center;
+    padding: 75px 1%;
+    float: left;
+}
+
+.summary {
+    border-bottom: 20px double #F6BD60; 
+    margin: 5% 2% 2% 2%;
+    width: 80%;
+    padding: 1% 1%;
+    text-align: center;
+}
+
+.preamble {
+    border-bottom: 40px dashed #F28482;
+}
+
+
+
+/*-----------------
+
+BODY
+
+-----------------*/
+
+.preamble,
+.supporting,
+.sidebar {    
+    background-color: #F7EDE2;
+    width: 50%;
+    padding: 4% 3%;
+}
+
+.supporting {
+    margin: 5%;
+    width: 45%;
+}
+
+h3 {
+    background-color: #84A59D;
+    color: #fff;
+    width: 114%;
+    margin: 0 0 0 -7%;
+    padding: 1%;
+}
+
+
+
+/*-----------------
+
+BODY
+
+-----------------*/
+
+.sidebar {
+    width: 50%;
+}
