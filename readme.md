@@ -9,7 +9,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 Courses Completed: 0  
 [Extracurriculars](daily-logs/extracurriculars)
 
-Total Points earned: 1380
+Total Points earned: 1480
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -38,6 +38,7 @@ Total Points earned: 1380
 | 05/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 06/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 02/02/2018 | Basic project | 100 | [Template clone](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/template-clone-001) |
+| 06/02/2018 | Basic project | 100 | [CSS Design](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/css-zen-garden) |
 
 ---
 
@@ -76,7 +77,7 @@ _Anything in Tier 0 can be studied before beginning Tier 1, or alongside the res
 - [x]  Course: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
 - [x]  Project: Pick a template from [here](https://freebiesbug.com/psd-freebies/website-template/), [here](http://www.free-css.com/free-css-templates) or [here](http://www.os-templates.com/free-website-templates) and implement the frontend of a website with it as your inspiration (do not use its assets)
 - [x]  Book: [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
-- [ ]  Project: [CSS Zen Garden](http://www.csszengarden.com/) - implement your own CSS design for the competition
+- [x]  Project: [CSS Zen Garden](http://www.csszengarden.com/) - implement your own CSS design for the competition
 - [ ]  Course: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [ ]  Project: Pick a template from [here](https://freebiesbug.com/psd-freebies/website-template/), [here](http://www.free-css.com/free-css-templates) or [here](http://www.os-templates.com/free-website-templates) and implement the frontend of a website with it as your inspiration (do not use its assets)
 - [ ]  Book: [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
