@@ -9,7 +9,7 @@ My main objective for this year is to gain the foundational skillset of a web de
 Courses Completed: 0  
 [Extracurriculars](daily-logs/extracurriculars)
 
-Total Points earned: 1500
+Total Points earned: 1540
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -40,6 +40,7 @@ Total Points earned: 1500
 | 06/02/2018 | Basic project | 100 | [CSS Design](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/css-zen-garden) |
 | 06/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 07/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 09/02/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | WIP | MOOC | 500 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
 
 ---
