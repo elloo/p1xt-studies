@@ -4,7 +4,13 @@ These are the basics of how the internet works.
 
 ## IP Address
 
-Identifies your computer with a unique address. This ensures information is sent and received at the correct location.
+__Uniform Resource Identifier (URI)__ - alphanumeric string of characters used to uniquely identify a web page or resource.
+
+__Uniform Resource Locator (URL)__ - Type of URI that specifies the location on the WWW and the mechanism (protocol) for retrieving it.
+
+![URL explainer](images/url-explainer.png)
+
+__IP addresses__ identify your computer with a unique address. This ensures information is sent and received at the correct location.
 
 * Originally, they were 32-bit addresses (IPv4) broken into four clusters of 8-bytes or four integers from 0 to 255 - w.x.y.z
     * This only allowed for about 4 billion addresses.
@@ -51,6 +57,9 @@ Some networks are physically connected to other networks.
 ## The Internet
 
 A large, interconnected network created by weaving together local, small networks.
+* More specifically, a network of machines (servers, clients, routers, switches, etc) connected by media (fiber, wifi, etc) that allows communication among devices.
+    * The __World Wide Web__ is an __application__ - a network of documents that sits on top of the internet.
+        * This is what allows for the transfer of data and communication across devices.
 
 * Think of these small networks as isolated communities with a single road leading in or out.
 
@@ -70,7 +79,10 @@ Deals with any lost packets.
 
 ## HTTP (Hypertext Transfer Protocol)
 
-An example of an application layer protocol that specifically dictates the format by which clients request web pages from a server, and the format via which servers return information to clients.
+_The browser and WWW utilise HTTP to transfer documents._
+
+An example of an application layer protocol that specifically dictates the format by which clients __request__ web pages from a server (possibly including client information), and the format via which servers __return__ information (including header / status information) to clients.
+* Based on client-server model 
 
 Contrasts with device-to-device protocol.
 
@@ -83,3 +95,21 @@ Takes the form: method (GET or POST) request-target http-version (http/1.1)
 
 First line of a server's response to a HTTP request looks like: http-version (http/1.1) status (200 = success)
 * Visible in Network tab of Developer Tools.
+
+### HTTP Request
+
+![HTTP request example](images/http-request.png)
+
+### HTTP Response
+
+![HTTP response example](images/http-response.png)
+
+# How a browser works
+
+__Browser__ - a software that is used to access and display Web content, and to navigate across the Web.
+
+## Main components
+
+__Rendering Engine (HTML/CSS)__ - responsible for static content presentation, formatting, and layout
+
+__JavaScript Engine (JavaScript)__ - responsible for creating and modifying dynamic content and appearance

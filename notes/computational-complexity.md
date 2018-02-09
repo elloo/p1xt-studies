@@ -2,7 +2,7 @@
 
 * Describes the efficiency of different algorithms
     * Big O describes the worst-case scenario
-    * Big Omega(![Omega symbol](symbols/omega.png)) describes the best-case scenario
+    * Big Omega(![Omega symbol](images/omega.png)) describes the best-case scenario
 * It is enough to simply think of these ideas conceptually.
 
 From fastest to slowest:
@@ -17,7 +17,7 @@ O(n<sup>2</sup>)|Quadratic time|
 O(n<sup>c</sup>)|Polynomial time|
 O(c<sup>n</sup>)|Exponential time|
 O(n!)|Factorial time|
-O(![Infinity symbol](symbols/infinity.png))|Infinite time|Stupid sort - random shuffle and check
+O(![Infinity symbol](images/infinity.png))|Infinite time|Stupid sort - random shuffle and check
 
 ## Runtime examples
 
