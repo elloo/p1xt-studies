@@ -1,5 +1,3 @@
-# January 2018
-
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
 | 03/01/2018 | Exercise | 15 | Swimming (~45 mins, 700m) |
