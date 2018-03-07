@@ -11,7 +11,7 @@ The _D_ocument _O_bject _M_odel is a structured tree representation of the HTML 
 Data can be stored in the browser across multiple page requests using __localStorage__.
 * One example is storing JSON strings.
 
-_J_ava_S_cript _O_bject _N_otation is a textual representation of a JavaScript Object that can be stored as a string, in a .json file, or exchanged between programs. 
+JavaScript Object Notation is a textual representation of a JavaScript Object that can be stored as a string, in a .json file, or exchanged between programs. 
 * JavaScript objects can be converted to a JSON string via _JSON.stringify(myObject)_.
 * String representations can be converted back to an object via _JSON.parse(jsonString)_.
 
