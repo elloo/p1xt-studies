@@ -4,9 +4,9 @@ Source: [Programming for the Web with JavaScript](https://github.com/elloo/p1xt-
 
 The _D_ocument _O_bject _M_odel is a structured tree representation of the HTML of a web page.
 * It allows us to programtically access that structure in JavaScript through the __document__ object.
-** _document.getElementByID('id') returns specific HTML elements with that ID.
-** _element.innerHTML_ can be modified to change the element's HTML/content.
-** _element.style_ can be modified to change the element's CSS/appearance.
+    * _document.getElementByID('id') returns specific HTML elements with that ID.
+    * _element.innerHTML_ can be modified to change the element's HTML/content.
+    * _element.style_ can be modified to change the element's CSS/appearance.
 
 Data can be stored in the browser across multiple page requests using __localStorage__.
 * One example is storing JSON strings.
@@ -20,9 +20,9 @@ JavaScript Object Notation is a textual representation of a JavaScript Object th
 _Event-Driven programming_ is when a program's behaviour is based on events. 
 * __element.addEventListener(event, function)__ is used to associate callback functions to events.
 * It is a form of asynchronous programming
-** The browser is told to listen for events / actions and run associated callback functions when they occur.
-** In the meantime, other code is able to be run.
-** As opposed to synchronous where a text field is continuously re-checked until text has been input by the user.
+    * The browser is told to listen for events / actions and run associated callback functions when they occur.
+    * In the meantime, other code is able to be run.
+    * As opposed to synchronous where a text field is continuously re-checked until text has been input by the user.
 
 A _callback function_ is a function that is invoked as the result of some type of action or event.
 
@@ -33,7 +33,7 @@ jQuery is a library that simplifies the way JavaScript and the DOM are used.
 
 To manipulate DOM contents, the general format is $(selector).action(arguments...)
 * e.g. $("#name").html("Hello");
-** Other actions include .append, .addClass, .val(), .hide(), and .show()
+    * Other actions include .append, .addClass, .val(), .hide(), and .show()
 * $ is used to select DOM elements along with basic CSS element selector syntax.
 
 .on() allows multiple callback functions to be defined for different actions/events.
