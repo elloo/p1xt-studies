@@ -6,12 +6,12 @@ My main objective for this year is to gain the foundational skillset of a web de
 
 [Source](https://github.com/P1xt/speedstudy)
 
-Courses Completed: 0  
+Courses Completed: 1  
 [Extracurriculars](daily-logs/extracurriculars.md)
 
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 1630
+Total Points earned: 1640
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
