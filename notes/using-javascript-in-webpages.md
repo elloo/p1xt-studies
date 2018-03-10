@@ -2,7 +2,7 @@ Source: [Programming for the Web with JavaScript](https://github.com/elloo/p1xt-
 
 # Introduction to the DOM
 
-The _D_ocument _O_bject _M_odel is a structured tree representation of the HTML of a web page.
+The Document Object Model is a structured tree representation of the HTML of a web page.
 * It allows us to programtically access that structure in JavaScript through the __document__ object.
     * _document.getElementByID('id') returns specific HTML elements with that ID.
     * _element.innerHTML_ can be modified to change the element's HTML/content.
