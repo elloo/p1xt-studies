@@ -3,7 +3,7 @@ class FontChooser extends React.Component {
     constructor(props) {
         super(props);
         this.state = { 
-            hidden: false, 
+            hidden: true, 
             bold: this.props.bold == 'true' ? true : false,
             size: Number(this.props.size),
             limit: false,
@@ -81,7 +81,7 @@ class FontChooser extends React.Component {
         
         return(
            <div>
-               <input type="checkbox" id="boldCheckbox" defaultChecked={checked} hidden={toggled} onClick={this.toggleWeight.bind(this)}/>
+               <input type="checkbox" id="boldCheckbox" defaultChecked={checked} hidden={toggled} onChange={this.toggleWeight.bind(this)}/>
                <button id="decreaseButton" hidden={toggled} onClick={this.decrementSize.bind(this)}>-</button>
                <span id="fontSizeSpan" hidden={toggled}>{size}</span>
                <button id="increaseButton" hidden={toggled} onClick={this.incrementSize.bind(this)}>+</button>
