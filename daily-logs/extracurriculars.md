@@ -57,3 +57,5 @@
 | 13/03/2018 | Musical instrument | 10 | Voice |
 | 01/04/2018 | Exercise | 20 | Weight training (60 mins) |
 | 03/04/2018 | Musical instrument | 10 | Voice |
+| 05/04/2018 | Musical instrument | 10 | Voice |
+| 05/04/2018 | Exercise | 20 | Weight training (60 mins) |
