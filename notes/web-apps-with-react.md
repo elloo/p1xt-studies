@@ -66,3 +66,7 @@ Called when a component's props or state is changing and the component is re-ren
 3. Unmounting
 Called when a component is being removed from the VirtualDOM
 * _componentWillUnmount:_ invoked before component is removed from VirtualDOM and destroyed
+
+## Additional Resources
+
+[Learn React.JS in 8 Minutes](https://medium.com/learning-new-stuff/learn-react-js-in-7-min-92a1ef023003)
