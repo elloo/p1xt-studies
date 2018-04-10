@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
 
 class AddList extends Component {
-  constructor(){
-      super();
-      this.state = {value: ''};
+  constructor(props){
+      super(props);
+      this.state = {newList: ''};
   }
 
-  handleSubmit(e) {
+  handleSubmit(e) {      
       e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
-      this.setState({value: this.refs.id.value});
+      this.setState({newList: this.refs.id.value});   // "this.refs.id.value" from course material.      
+      {e.addList};         
   }
 
   render() {

@@ -19,13 +19,16 @@ class App extends Component {
    * array and then adding a new property in the "items" object that has the same name
    * as the value put into the "lists" array. It should then re-render this App component.
    */
-  handleAddList(s) {  
+  handleAddList(s) {        
       var value = s.value;
+      var listUpdate = this.state.lists;
       
       this.setState({ 
-                    lists: this.state.lists.concat(s.value),        // Should render a page change...
-                    items: Object.assign(this.state.items, { value: s.items })
-      });
+        lists: this.state.lists.concat(value),  
+        items: Object.assign(this.state.items, { value: s.items })         
+      });          
+      
+      alert("PASS");
   }
 
   /**
