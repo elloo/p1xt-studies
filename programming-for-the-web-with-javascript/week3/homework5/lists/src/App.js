@@ -41,7 +41,14 @@ class App extends Component {
    * the state, this function  should then re-render this App component.
    */
   handleAddItem(s) {
-      // Implement this function!
+      var listName = Object.getOwnPropertyNames(s);
+      var listItem = {'name': Object.values(s).toString()};
+      var itemsState = this.state.items;
+      
+      let itemsCopy = Object.assign({}, this.state.items);
+      itemsState[listName].push(listItem);
+
+      this.setState({items: itemsCopy}); 
   }
 
   /**

@@ -8,8 +8,10 @@ class AddList extends Component {
 
   handleSubmit(e) {      
       e.preventDefault(); // this prevents the page from reloading -- do not delete this line!
-      this.setState({s: this.refs.id.value});   // "this.refs.id.value" from course material.      
-      this.props.addList(this.refs.id.value);   // Invoking handleAddList function from App.js
+      this.setState({s: this.refs.id.value}, 
+                    function(){this.props.addList(this.refs.id.value);   
+                    // Callback function runs after state is updated    
+      });   // "this.refs.id.value" from course material.      
   }
 
   render() {
