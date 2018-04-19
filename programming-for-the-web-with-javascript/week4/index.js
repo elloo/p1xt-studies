@@ -37,7 +37,7 @@ app.use('/findAnimals', (req, res) => {
     if (req.query.gender)
         query.gender = req.query.gender;
     if (req.query.trait)
-        query.traits = req.query.trait;
+        query.traits = req.query.trait;    
     
     if (Object.keys(query).length != 0){   // If query returns one or more objects...
         Animal.find( query, 'name species breed gender age -_id', (err, animals) => {
@@ -59,19 +59,58 @@ app.use('/findAnimals', (req, res) => {
 
 
 
+app.use('/animalsYoungerThan', (req, res) => {
+	
+    var query = {};
+    if (req.query.age)
+        query.age = req.query.age;  
+    
+    if (Object.keys(query).length != 0){   // If query returns one or more objects...
+        Animal
+            .find({age: {$lt: query.age}}, 'name -_id', (err, animals) => {
+            
+            if (!err){
+                /* Counting query results */
+                if (Array.isArray(animals)){
+                    var queryCount = animals.length;
+                } 
+               
+                
+                /* Output of queryCount */
+                if (queryCount == 0){
+                    animals.push({"count": 0});
+                    res.json(animals);      
+                } else {
+                    animals.push({"count": queryCount});
+                    res.json(animals);
+                }
+            }
+            else {    
+                /* If query is non-numerical */
+                console.log(err)
+                res.json({});           
+            }
+        })
+    }
+    else {
+        /* If query has no input */
+        res.json({});  
+    }
+    });
+
+
+
 /*****************************************************************************************/
-
-
 
 app.use('/', (req, res) => {
 	res.json({ msg : 'It works!' });
     });
 
 
-
 app.listen(3000, () => {
 	console.log('Listening on port 3000');
     });
+
 
 
 // Please do not delete the following line; we need it for testing!
