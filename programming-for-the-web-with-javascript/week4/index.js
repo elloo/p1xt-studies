@@ -29,6 +29,7 @@ app.use('/findToy', (req, res) => {
 
 
 
+
 app.use('/findAnimals', (req, res) => {
 	
     var query = {};
@@ -56,6 +57,8 @@ app.use('/findAnimals', (req, res) => {
     else res.json({});  // Else result in an empty query
         
     });
+
+
 
 
 
@@ -99,6 +102,28 @@ app.use('/animalsYoungerThan', (req, res) => {
     });
 
 
+
+
+
+app.use('/calculatePrice', (req, res) => {
+	
+    var query = {};
+    if (req.query.id)
+        query.id = { $regex: req.query.id };
+    
+    if (Object.keys(query).length != 0){   // If query returns one or more objects...
+        Toy.find( query, (err, toys) => {
+            if (!err)
+                res.json(toys);
+            else {
+                console.log(err)
+                res.json({});
+            }
+        })
+    }
+    else res.json({});  // Else result in an empty query
+        
+    });
 
 /*****************************************************************************************/
 

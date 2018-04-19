@@ -3,7 +3,6 @@
 __HTML & CSS__
 
 * [CSS Zen Garden](http://htmlpreview.github.io/?https://github.com/elloo/p1xt-js-2.0-guided-studies/blob/master/html-css/css-zen-garden/index.html)
-* [Widescreen template clone](http://htmlpreview.github.io/?https://github.com/elloo/p1xt-js-2.0-guided-studies/blob/master/html-css/template-clone-001/index.html)
 
 __Pure CSS Images__
 
