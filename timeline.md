@@ -18,3 +18,6 @@ A timeline of the proud little moments during my studies.
   * Added point card from [P1xt's SpeedStudy](https://github.com/P1xt/speedstudy)
   * Transitioned into CS50 2018 material
   * Completed CS50! Yay!!
+* May 2018
+  * Went to my first Node Girls event
+  * Decided to focus more on math in preparation for a CS degree
