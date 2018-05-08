@@ -11,13 +11,14 @@ Courses Completed: 1
 
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 2320
+Total Points earned: 2420
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
 | 31/01/2018 | MOOC | 500 | [CS50: Introduction to Computer Science](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/cs50) |
 | 02/02/2018 | Basic project | 100 | [Template clone](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/template-clone-001) |
 | 06/02/2018 | Basic project | 100 | [CSS Design](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/css-zen-garden) |
+| 05/05/2018 | Basic project | 100 | [Node Girls React Weather App](https://github.com/elloo/nodegirls-participation/tree/master/react-weather-app) |
 | WIP | MOOC | 500 | [Programming for the Web with JavaScript](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/programming-for-the-web-with-javascript) |
 
 ---
