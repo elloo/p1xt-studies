@@ -11,7 +11,7 @@ Courses Completed: 1
 
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 2460
+Total Points earned: 2470
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
