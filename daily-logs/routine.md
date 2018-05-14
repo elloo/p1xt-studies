@@ -45,3 +45,4 @@
 | 08/05/2018 | Khan Academy (300 mins) | 100 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 12/05/2018 | Khan Academy (60 mins) | 20 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
 | 13/05/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
+| 14/05/2018 | Khan Academy (30 mins) | 10 | [Algebra 1](https://www.khanacademy.org/mission/algebra) |
