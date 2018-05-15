@@ -10,10 +10,15 @@ app.use('/findToy', (req, res) => {
 	
     var query = {};
     if (req.query.id)
-        query.id = { $regex: req.query.id };
+        query.id = req.query.id;
     
-    if (Object.keys(query).length != 0){   // If query returns one or more objects...
-        Toy.find( query, (err, toys) => {
+    if (Object.keys(query).length != 0){
+        Toy.find(query)
+           .lean()
+           .exec((err, toys) => {
+            
+            console.log(toys);
+            
             if (!err)
                 res.json(toys);
             else {
@@ -22,7 +27,7 @@ app.use('/findToy', (req, res) => {
             }
         })
     }
-    else res.json({});  // Else result in an empty query
+    else res.json({});
         
     });
 
@@ -38,9 +43,9 @@ app.use('/findAnimals', (req, res) => {
     if (req.query.gender)
         query.gender = req.query.gender;
     if (req.query.trait)
-        query.traits = req.query.trait;    
+        query.traits = req.query.trait;   
     
-    if (Object.keys(query).length != 0){   // If query returns one or more objects...
+    if (Object.keys(query).length != 0){ 
         Animal.find( query, 'name species breed gender age -_id', (err, animals) => {
             if (animals.toString() == ""){
                 res.json({});            
@@ -54,7 +59,7 @@ app.use('/findAnimals', (req, res) => {
             }
         })
     }
-    else res.json({});  // Else result in an empty query
+    else res.json({});
         
     });
 
@@ -68,7 +73,7 @@ app.use('/animalsYoungerThan', (req, res) => {
     if (req.query.age)
         query.age = req.query.age;  
     
-    if (Object.keys(query).length != 0){   // If query returns one or more objects...
+    if (Object.keys(query).length != 0){
         Animal
             .find({age: {$lt: query.age}}, 'name -_id', (err, animals) => {
             
@@ -106,24 +111,103 @@ app.use('/animalsYoungerThan', (req, res) => {
 
 
 app.use('/calculatePrice', (req, res) => {
-	
-    var query = {};
-    if (req.query.id)
-        query.id = { $regex: req.query.id };
     
-    if (Object.keys(query).length != 0){   // If query returns one or more objects...
-        Toy.find( query, (err, toys) => {
-            if (!err)
-                res.json(toys);
-            else {
-                console.log(err)
+    /* Return empty object if there are no id terms in the query
+     * CHECKED */
+    if (req.query.id.length == 0){
+        res.json({});
+    }
+
+    
+    /* req.query looks something like { id: [ '1234', '5678' ], qty: [ '2', '3' ] } 
+     * CHECKED */
+    var request = req.query;
+    
+    console.log(request);
+    
+    /* If qty specified is NaN or less than one, remove from toys array */
+    for (i = 0; i < request["qty"].length; i++){
+        if (isNaN(request.qty[i]) || request.qty[i] < 1){
+            request["id"].splice(i, 1);
+            request["qty"].splice(i, 1);
+        }
+    }   
+
+    console.log(request);
+    
+    /* Create query object without invalid qty input */
+    var query = request.id.map((id, i) => {
+       return {
+           id: id
+       } 
+    });
+    
+    
+    /* Add qty for duplicate id query terms */
+    var queryQtyUpdate = request.id.map((id, i) => {
+       return {
+           id: id,
+           qty: request.qty[i]
+       } 
+    });
+    queryDupQtyAdded = [];    
+    queryQtyUpdate.forEach(function(x){
+        if(!this[x.id]){
+            this[x.id] = {id: x.id, qty: 0};
+            queryDupQtyAdded.push(this[x.id]);
+        }
+        this[x.id].qty += Number(x.qty);
+    }, Object.create(null));    
+
+    
+    
+    /* Convert to queryDupQtyAdded array to object
+    var queryFinal = queryDupQtyAdded.map((object, i) => {
+       return {
+           id: queryDupQtyAdded[i].id,
+           qty: queryDupQtyAdded[i].qty
+       } 
+    }); */
+   
+
+    if (Object.keys(query).length != 0){
+        Toy
+            .find(query.$or)
+            .lean()
+            .exec((err, toys) => {
+            if (!err){                            
+                
+                var items = [];
+                items = toys.map((id, i) => {                                                                          
+                    return { 
+                        item : toys[i]["id"],
+                        qty : queryDupQtyAdded[i]["qty"],
+                        subtotal : queryDupQtyAdded[i]["qty"] * Number(toys[i]["price"])
+                    }                                     
+                });  
+                
+                var totalPrice = 0;
+                for (i = 0; i < items.length; i++){
+                    totalPrice += items[i]["subtotal"];
+                }                
+                
+                var result = {
+                    items: items,
+                    totalPrice: totalPrice
+                }
+                
+                res.json(result);
+
+            } else {
+                console.log(err);
                 res.json({});
             }
-        })
+            })
     }
-    else res.json({});  // Else result in an empty query
-        
-    });
+    else res.json({});
+    
+});
+    
 
 
 
