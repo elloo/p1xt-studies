@@ -123,8 +123,6 @@ app.use('/calculatePrice', (req, res) => {
      * CHECKED */
     var request = req.query;
     
-    console.log(request);
-    
     /* If qty specified is NaN or less than one, remove from toys array */
     for (i = 0; i < request["qty"].length; i++){
         if (isNaN(request.qty[i]) || request.qty[i] < 1){
