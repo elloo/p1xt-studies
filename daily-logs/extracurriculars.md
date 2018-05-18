@@ -77,3 +77,4 @@
 | 03/05/2018 | Exercise | 20 | Weight training (60 mins) |
 | 06/05/2018 | Exercise | 20 | Pilates (60 mins) |
 | 11/05/2018 | Exercise | 20 | Conditioning (60 mins) |
+| 17/05/2018 | Exercise | 20 | Yoga (60 mins) |
