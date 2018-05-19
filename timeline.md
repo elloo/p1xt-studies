@@ -21,3 +21,4 @@ A timeline of the proud little moments during my studies.
 * May 2018
   * Went to my first Node Girls event
   * Decided to focus more on math in preparation for a CS degree
+  + Completed the "Programming for the Web with JavaScript" MOOC from PennX

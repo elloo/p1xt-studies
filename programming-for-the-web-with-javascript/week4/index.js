@@ -6,6 +6,7 @@ var Toy = require('./Toy.js');
 
 
 
+
 app.use('/findToy', (req, res) => {
 	
     var query = {};
@@ -16,8 +17,6 @@ app.use('/findToy', (req, res) => {
         Toy.find(query)
            .lean()
            .exec((err, toys) => {
-            
-            console.log(toys);
             
             if (!err)
                 res.json(toys);
@@ -112,97 +111,79 @@ app.use('/animalsYoungerThan', (req, res) => {
 
 app.use('/calculatePrice', (req, res) => {
     
-    /* Return empty object if there are no id terms in the query
-     * CHECKED */
-    if (req.query.id.length == 0){
-        res.json({});
-    }
-
-    
-    /* req.query looks something like { id: [ '1234', '5678' ], qty: [ '2', '3' ] } 
-     * CHECKED */
     var request = req.query;
     
-    /* If qty specified is NaN or less than one, remove from toys array */
-    for (i = 0; i < request["qty"].length; i++){
-        if (isNaN(request.qty[i]) || request.qty[i] < 1){
-            request["id"].splice(i, 1);
-            request["qty"].splice(i, 1);
-        }
-    }   
-
-    console.log(request);
-    
-    /* Create query object without invalid qty input */
-    var query = request.id.map((id, i) => {
-       return {
-           id: id
-       } 
-    });
-    
-    
-    /* Add qty for duplicate id query terms */
-    var queryQtyUpdate = request.id.map((id, i) => {
-       return {
-           id: id,
-           qty: request.qty[i]
-       } 
-    });
-    queryDupQtyAdded = [];    
-    queryQtyUpdate.forEach(function(x){
-        if(!this[x.id]){
-            this[x.id] = {id: x.id, qty: 0};
-            queryDupQtyAdded.push(this[x.id]);
-        }
-        this[x.id].qty += Number(x.qty);
-    }, Object.create(null));    
-
-    
-    
-    /* Convert to queryDupQtyAdded array to object
-    var queryFinal = queryDupQtyAdded.map((object, i) => {
-       return {
-           id: queryDupQtyAdded[i].id,
-           qty: queryDupQtyAdded[i].qty
-       } 
-    }); */
-   
-
-    if (Object.keys(query).length != 0){
-        Toy
-            .find(query.$or)
-            .lean()
-            .exec((err, toys) => {
-            if (!err){                            
-                
-                var items = [];
-                items = toys.map((id, i) => {                                                                          
-                    return { 
-                        item : toys[i]["id"],
-                        qty : queryDupQtyAdded[i]["qty"],
-                        subtotal : queryDupQtyAdded[i]["qty"] * Number(toys[i]["price"])
-                    }                                     
-                });  
-                
-                var totalPrice = 0;
-                for (i = 0; i < items.length; i++){
-                    totalPrice += items[i]["subtotal"];
-                }                
-                
-                var result = {
-                    items: items,
-                    totalPrice: totalPrice
-                }
-                
-                res.json(result);
-
-            } else {
-                console.log(err);
-                res.json({});
-            }
-            })
+    if (request.id.length == 0 || request.id.length != request.qty.length){
+        res.json({});
     }
-    else res.json({});
+    
+    for (var i = request["qty"].length - 1; i >= 0; i--){        
+        if (isNaN(request.qty[i])
+            || isNaN(request.id[i])
+            || request.qty[i] < 1 
+            || request.qty[i] == null
+            || request.id[i].length != 4
+        ){
+            request["id"].splice(i, 1);
+            request["qty"].splice(i, 1);            
+        }        
+    }
+       
+    /* Check for duplicate id values and add qty */
+    var request_Filtered = {id: [], qty: []};    
+    for (var i = request["id"].length - 1; i >= 0; i--){
+        for (var x = 0; x < request["id"].length; x++)
+            if (request.id[i] == request.id[x] && i != x){                
+                request_Filtered["id"].push(Number(request.id[i]));  
+                request_Filtered["qty"].push(Number(request.qty[i]) + Number(request.qty[x]));  
+                request["id"].splice(x, 1);
+                request["qty"].splice(x, 1); 
+                request["id"].splice(i - 1, 1);
+                request["qty"].splice(i - 1, 1); 
+            }
+    }    
+    
+    if (request["id"].length != 0){
+        request["id"].forEach(function (item, i){
+            request_Filtered["id"].push(Number(request.id[i]));  
+            request_Filtered["qty"].push(Number(request.qty[i]));        
+        });
+    }
+    
+    var query = {"id": []};
+    request_Filtered["id"].forEach(item => {query["id"].push(item)});
+    Toy.find(query).exec(function(err, toys){
+       if (!err){                            
+
+            
+            var items = [];
+            items = toys.map((id, i) => {                                                                          
+                return { 
+                    item : request_Filtered["id"][i],
+                    qty : request_Filtered["qty"][i],                  
+                    subtotal : request_Filtered["qty"][i] * Number(toys[i]["price"])
+                }                                     
+            });  
+          
+
+            var totalPrice = 0;
+            for (i = 0; i < items.length; i++){
+                totalPrice += items[i]["subtotal"];
+            }                
+
+            var result = {
+                items: items,
+                totalPrice: totalPrice
+            }
+
+            res.json(result);
+
+        } else {
+            console.log(err);
+            res.json({});
+        }
+    });
+    
     
 });
     
