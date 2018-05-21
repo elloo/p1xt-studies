@@ -56,3 +56,4 @@
 | 19/05/2018 | Khan Academy (120 mins) | 40 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 20/05/2018 | Khan Academy (120 mins) | 40 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 21/05/2018 | Khan Academy (120 mins) | 40 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
+| 22/05/2018 | Khan Academy (120 mins) | 40 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
