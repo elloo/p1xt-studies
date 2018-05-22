@@ -1,3 +1,24 @@
+$navbar-dark-color: #fff;
+$navbar-dark-hover-color: #fff;
+
+$headings-font-family: Georgia,"Times New Roman",Times,serif;
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-variant: small-caps;
+}
+
+.navbar-nav li:hover > ul.dropdown-menu {
+    display: block;
+}
+.dropdown-submenu {
+    position:relative;
+}
+.dropdown-submenu>.dropdown-menu {
+    top:0;
+    left:100%;
+    margin-top:-6px;
+}
+
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
@@ -5,8 +26,12 @@
 @import "node_modules/bootstrap/scss/reboot";
 
 @import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/dropdown";
 @import "node_modules/bootstrap/scss/forms";
+@import "node_modules/bootstrap/scss/bootstrap-grid";
+@import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
 @import "node_modules/bootstrap/scss/transitions";
+@import "node_modules/bootstrap/scss/type";
 @import "node_modules/bootstrap/scss/utilities";

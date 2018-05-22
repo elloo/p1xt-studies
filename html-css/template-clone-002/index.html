@@ -9,10 +9,13 @@
        <title>Bishup Website Template</title>
        <link rel="stylesheet" href="main.css">
        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">       
+       <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
+       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     </head>
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item"><a href="#" class="nav-link active"><span class="fas fa-home" aria-hidden="true"></span></a></li>
                     <li class="nav-item"><a href="#" class="nav-link">About</a></li>
@@ -20,42 +23,71 @@
                     <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
                     <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
                 </ul>
-                <span class="navbar-text mx-2">+00 (123) 456 7890</span> 
-                <span class="navbar-text mx-2">info@domain.com</span>
+                <span class="navbar-text mx-2"><span class="fas fa-phone"></span> +00 (123) 456 7890 </span> 
+                <span class="navbar-text mx-2"><span class="fas fa-envelope"></span> info@domain.com</span>
             </nav>
 
-            <h3>Bishup</h3>
-            <h4>vestibulum amet</h4>
-            <p><span>Call us:</span> +00 (123) 456 7890</p>
-            <p><span>Mon. - Sat.:</span> 08.00am - 18.00pm</p>
-
-            <ul> Language
-                <li>Default</li>
-                <li>German</li>
-                <li>Spanish</li>
-                <li>French</li>
-            </ul>
-
-            <ul>
-                <li>Home</li>
-                <li><ul>Pages
-                    <li>Gallery</li>
-                    <li>Full Width</li>
-                    <li>Sidebar Left</li>                 
-                    <li>Sidebar Right</li>
-                    <li>Basic Grid</li>
-                    <li>Font Icons</li>
-                </ul></li>
-                <li><ul>Dropdown
-                    <li>Level 2</li>
-                    <li><ul>Level 2 + Drop
-                        <li>Level 3</li>
-                        <li>Level 3</li>
-                        <li>Level</li>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col my-5">
+                        <h3 class="my-0">Bishup</h3>
+                        <p class="mt-0">vestibulum amet</p>
+                    </div>
+                    <div class="col my-5">
+                        <p><span class="fas fa-phone"></span><span class="font-weight-bold"> Call us:</span><br> +00 (123) 456 7890</p>
+                    </div>
+                    <div class="col my-5">
+                        <p><span class="far fa-clock"></span><span class="font-weight-bold"> Mon. - Sat.:</span><br> 08.00am - 18.00pm</p>
+                    </div>
+                    <div class="col my-5">
+                        <div class="dropdown btn-group">
+                            <button class="dropdown-toggle dropdown-item btn btn-outline-secondary btn-block" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                                Language
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a href="#" class="dropdown-item">Default</a>
+                                <a href="#" class="dropdown-item">German</a>
+                                <a href="#" class="dropdown-item">French</a>
+                                <a href="#" class="dropdown-item">Spanish</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Bootstrap submenu inspired by https://www.codeply.com/go/ji5ijk6yJ4-->
+            <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e4f2fe;">                
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="#" class="nav-link active">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-item dropdown-toggle">Pages</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" class="dropdown-item">Gallery</a></li>
+                            <li><a href="#" class="dropdown-item">Full Width</a></li>
+                            <li><a href="#" class="dropdown-item">Sidebar Left</a></li>                 
+                            <li><a href="#" class="dropdown-item">Sidebar Right</a></li>
+                            <li><a href="#" class="dropdown-item">Basic Grid</a></li>
+                            <li><a href="#" class="dropdown-item">Font Icons</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-item dropdown-toggle">Dropdown</a>
+                        <li class="dropdown">
+                            <ul>
+                                <li><a href="#" class="nav-link dropdown-toggle">Level 2</a></li>
+                                <li>Level 2 + Drop</li>
+                                <li>Level 3</li>
+                                <li>Level 3</li>                                
+                            </ul>
+                        </li>
+  
+                        <li>Level 2</li>
                     </ul></li>
-                    <li>Level 2</li>
-                </ul></li>
-            </ul>
+                    <li>Link text</li>
+                    <li>Link text</li>
+                    <li>Link text</li>
+                    <li>Long link text</li>
+                </ul>
+            </nav>
         </header>
         <section>
             <div>
