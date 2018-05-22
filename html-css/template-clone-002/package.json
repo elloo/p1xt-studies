@@ -1,0 +1,14 @@
+{
+  "name": "template-clone-002",
+  "version": "1.0.0",
+  "description": "Experimenting with custom Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "elloo",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.1"
+  }
+}
