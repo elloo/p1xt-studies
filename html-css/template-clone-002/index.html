@@ -13,7 +13,7 @@
        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
     </head>
-    <body>
+    <body style="margin: 0;">
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <ul class="navbar-nav mr-auto">
@@ -89,13 +89,15 @@
             </nav>
         </header>
         <section>
-            <div class="jumbotron jumbotron-fluid">
-                <div class="container-fluid">
-                    <img src="https://placeimg.com/1225/480/arch" class="img-fluid">
-                    <p class="lead">Amet Nunc Et Accumsan Blandit</p>
-                    <h1>Metus Purus Pharetra Sit</h1>
-                    <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
-                    <button>Fringilla Est Pharetra</button>
+            <div class="card bg-dark text-white">
+                <img src="https://placeimg.com/1800/950/arch" class="img-fluid card-img" alt="An architectural image" style="opacity: 0.25">
+                <div class="card-img-overlay mt-5 pt-5">
+                    <div class="mt-5 pt-5">
+                        <p class="lead card-text">Amet Nunc Et Accumsan Blandit</p>
+                        <h1 class="card-title">Metus Purus Pharetra Sit</h1>
+                        <p class="card-text">Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
+                        <button class="card-text btn btn-card my-5 p-2">Fringilla Est Pharetra</button>
+                    </div>
                 </div>
             </div>
         </section>

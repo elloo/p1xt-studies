@@ -36,6 +36,16 @@ h1, h2, h3, h4, h5, h6,
     margin-top:-6px;
 }
 
+$btn-border-radius: 10px;
+.btn {
+    font-variant: small-caps;
+}
+.btn-card {
+    color: #fff;
+    background-color: #8baad7;
+    border-color: #8baad7;
+}
+
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
 @import "node_modules/bootstrap/scss/mixins";
@@ -43,8 +53,10 @@ h1, h2, h3, h4, h5, h6,
 @import "node_modules/bootstrap/scss/reboot";
 
 @import "node_modules/bootstrap/scss/buttons";
+@import "node_modules/bootstrap/scss/card";
 @import "node_modules/bootstrap/scss/dropdown";
 @import "node_modules/bootstrap/scss/forms";
+@import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/bootstrap-grid";
 @import "node_modules/bootstrap/scss/grid";
 @import "node_modules/bootstrap/scss/nav";
