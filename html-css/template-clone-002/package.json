@@ -9,6 +9,7 @@
   "author": "elloo",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "bootstrap": "^4.1.1",
+    "bootstrap-submenu": "^3.0.0"
   }
 }

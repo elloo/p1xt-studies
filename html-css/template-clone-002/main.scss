@@ -1,12 +1,29 @@
+//********** Navbar colors **********//
 $navbar-dark-color: #fff;
+$navbar-dark-active-color: #8baad7;
 $navbar-dark-hover-color: #fff;
+$navbar-light-color: #fff;
+$navbar-light-hover-color: #01325b;
 
+//********** Dropdown **********//
+$dropdown-link-hover-bg: #8baad7;
+$dropdown-link-color: #fff;
+$dropdown-bg: rgba(139, 170, 215, 0.5); 
+
+//********** Fonts **********//
 $headings-font-family: Georgia,"Times New Roman",Times,serif;
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-variant: small-caps;
 }
+.hero h3, .hero p, .hero a, .hero button {
+ color: #01325a;
+}
+.dropdown-item, .nav-item, .navbar-text, .nav-link {
+    font-variant: small-caps;
+}
 
+//********** Submenu **********//
 .navbar-nav li:hover > ul.dropdown-menu {
     display: block;
 }

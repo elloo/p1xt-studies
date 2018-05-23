@@ -17,17 +17,17 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark bg-dark">
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="#" class="nav-link active"><span class="fas fa-home" aria-hidden="true"></span></a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">About</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Login</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link">Register</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link active"><span class="fas fa-home" aria-hidden="true"></span></a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link">About</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link">Contact</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link">Login</a></li>
+                    <li class="nav-item mx-2"><a href="#" class="nav-link">Register</a></li>
                 </ul>
                 <span class="navbar-text mx-2"><span class="fas fa-phone"></span> +00 (123) 456 7890 </span> 
                 <span class="navbar-text mx-2"><span class="fas fa-envelope"></span> info@domain.com</span>
             </nav>
 
-            <div class="container-fluid">
+            <div class="container-fluid hero">
                 <div class="row">
                     <div class="col my-5">
                         <h3 class="my-0">Bishup</h3>
@@ -55,9 +55,9 @@
                 </div>
             </div>
             <!-- Bootstrap submenu inspired by https://www.codeply.com/go/ji5ijk6yJ4-->
-            <nav class="navbar navbar-expand-md navbar-light" style="background-color: #e4f2fe;">                
+            <nav class="navbar navbar-expand-md navbar-light" style="background-color: #8baad7;">                
                 <ul class="navbar-nav mr-auto">
-                    <li class="nav-item"><a href="#" class="nav-link active">Home <span class="sr-only">(current)</span></a></li>
+                    <li class="nav-item mx-3"><a href="#" class="nav-link">Home <span class="sr-only">(current)</span></a></li>
                     <li class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-item dropdown-toggle">Pages</a>
                         <ul class="dropdown-menu">
@@ -69,35 +69,34 @@
                             <li><a href="#" class="dropdown-item">Font Icons</a></li>
                         </ul>
                     </li>
-                    <li class="nav-item dropdown">
+                    <li class="nav-item dropdown mx-3">
                         <a href="#" class="nav-link dropdown-item dropdown-toggle">Dropdown</a>
-                        <li class="dropdown">
-                            <ul>
-                                <li><a href="#" class="nav-link dropdown-toggle">Level 2</a></li>
-                                <li>Level 2 + Drop</li>
-                                <li>Level 3</li>
-                                <li>Level 3</li>                                
+                            <ul class="dropdown-menu">
+                                <li><a href="#" class="dropdown-item">Level 2</a></li>
+                                <li class="dropdown-submenu"><a href="#" class="dropdown-item dropdown-toggle">Level 2 + Drop</a></li>
+                                    <ul class="dropdown-menu">
+                                        <li class="dropdown-item">Level 3</li>
+                                        <li class="dropdown-item">Level 3</li>  
+                                    </ul>
+                                <li><a href="#" class="dropdown-item">Level 2</a></li>
                             </ul>
-                        </li>
-  
-                        <li>Level 2</li>
-                    </ul></li>
-                    <li>Link text</li>
-                    <li>Link text</li>
-                    <li>Link text</li>
-                    <li>Long link text</li>
+                    </li>                        
+                    <li class="mx-3"><a href="#" class="nav-link">Link text</a></li>
+                    <li class="mx-3"><a href="#" class="nav-link">Link text</a></li>
+                    <li class="mx-3"><a href="#" class="nav-link">Link text</a></li>
+                    <li class="mx-3"><a href="#" class="nav-link">Long link text</a></li>
                 </ul>
             </nav>
         </header>
         <section>
-            <div>
-                <!-- Hero image -->
-            </div>
-            <div>
-                <h2>Amet Nunc Et Accumsan Blandit</h2>
-                <h1>Metus Purus Pharetra Sit</h1>
-                <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
-                <button>Fringilla Est Pharetra</button>
+            <div class="jumbotron jumbotron-fluid">
+                <div class="container-fluid">
+                    <img src="https://placeimg.com/1225/480/arch" class="img-fluid">
+                    <p class="lead">Amet Nunc Et Accumsan Blandit</p>
+                    <h1>Metus Purus Pharetra Sit</h1>
+                    <p>Tempor praesent eu orci sodales sagittis neque eget consectetur</p>
+                    <button>Fringilla Est Pharetra</button>
+                </div>
             </div>
         </section>
         <section>
