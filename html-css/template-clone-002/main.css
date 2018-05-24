@@ -36,6 +36,30 @@ h1, h2, h3, h4, h5, h6,
   border-color: #8baad7;
 }
 
+.card-icon {
+  color: #8baad7;
+  background-color: #fff;
+  transition-property: color background-color;
+  transition-duration: 1s;
+}
+
+.card:hover .card-icon {
+  background-color: #8baad7;
+  color: #fff;
+  transition-property: color background-color;
+  transition-duration: 1s;
+}
+
+.card-display {
+  opacity: 0%;
+}
+
+.card:hover .card-display {
+  opacity: 100%;
+  transition-property: opacity;
+  transition-duration: 1s;
+}
+
 *,
 *::before,
 *::after {
