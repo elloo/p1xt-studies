@@ -10,7 +10,7 @@ Courses Completed: 1
 [Extracurriculars](daily-logs/extracurriculars.md) <br>
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 3510
+Total Points earned: 3520
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
