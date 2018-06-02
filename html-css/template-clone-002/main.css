@@ -50,14 +50,18 @@ h1, h2, h3, h4, h5, h6,
   transition-duration: 1s;
 }
 
-.card-display {
-  opacity: 0%;
+.card-opacity {
+  color: transparent;
+  background-color: transparent;
+  transition-property: color background-color;
+  transition-duration: 0.5s;
 }
 
-.card:hover .card-display {
-  opacity: 100%;
-  transition-property: opacity;
-  transition-duration: 1s;
+.card:hover .card-opacity {
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  transition-property: color background-color;
+  transition-duration: 0.5s;
 }
 
 *,
