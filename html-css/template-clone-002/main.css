@@ -64,6 +64,16 @@ h1, h2, h3, h4, h5, h6,
   transition-duration: 0.5s;
 }
 
+.event-link {
+  color: #8baad7;
+  font-size: 11px;
+}
+
+.event-link:hover {
+  color: #8baad7;
+  text-decoration: none;
+}
+
 *,
 *::before,
 *::after {

@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5, h6,
     margin-top:-6px;
 }
 
+//********** Buttons **********//
 $btn-border-radius: 10px;
 .btn {
     font-variant: small-caps;
@@ -46,6 +47,7 @@ $btn-border-radius: 10px;
     border-color: #8baad7;
 }
 
+//********** Cards **********//
 .card-icon {
     color: #8baad7;
     background-color: #fff;
@@ -69,6 +71,16 @@ $btn-border-radius: 10px;
     color: #fff;
     transition-property: color background-color;
     transition-duration: 0.5s;
+}
+
+//********** Events **********//
+.event-link {
+    color: #8baad7;
+    font-size: 11px;
+}
+.event-link:hover {
+    color: #8baad7;
+    text-decoration: none;
 }
 
 @import "node_modules/bootstrap/scss/functions";
