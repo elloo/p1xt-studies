@@ -64,23 +64,37 @@ $btn-border-radius: 10px;
     color: transparent;
     background-color: transparent;
     transition-property: color background-color;
-    transition-duration: 0.5s;
+    transition-duration: 0.33s;
 }
 .card:hover .card-opacity {
     background-color: rgba(0, 0, 0, 0.3);
     color: #fff;
     transition-property: color background-color;
-    transition-duration: 0.5s;
+    transition-duration: 0.33s;
 }
 
 //********** Events **********//
-.event-link {
+.event-link, .event-link:hover {
     color: #8baad7;
-    font-size: 11px;
-}
-.event-link:hover {
-    color: #8baad7;
+    font-size: 11px;    
     text-decoration: none;
+}
+
+//********** Footer **********//
+.footer-link, .footer-link:hover {
+    color: #8baad7;
+    list-style-type: none;
+    text-decoration: none;
+}
+footer .list-group-item {
+    background-color: transparent;    
+    border-color: #1c476d;
+    border-top: none;    
+    margin-left: 0;
+    padding-left: 0;
+}
+.text-secondary {
+    color: lightgrey;
 }
 
 @import "node_modules/bootstrap/scss/functions";
@@ -96,6 +110,7 @@ $btn-border-radius: 10px;
 @import "node_modules/bootstrap/scss/images";
 @import "node_modules/bootstrap/scss/bootstrap-grid";
 @import "node_modules/bootstrap/scss/grid";
+@import "node_modules/bootstrap/scss/list-group";
 @import "node_modules/bootstrap/scss/nav";
 @import "node_modules/bootstrap/scss/navbar";
 @import "node_modules/bootstrap/scss/transitions";
