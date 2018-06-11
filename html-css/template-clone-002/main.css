@@ -70,6 +70,10 @@ h1, h2, h3, h4, h5, h6,
   text-decoration: none;
 }
 
+.text-grey {
+  color: #a8a9a9;
+}
+
 .footer-link, .footer-link:hover {
   color: #8baad7;
   list-style-type: none;
@@ -82,10 +86,6 @@ footer .list-group-item {
   border-top: none;
   margin-left: 0;
   padding-left: 0;
-}
-
-.text-secondary {
-  color: lightgrey;
 }
 
 *,
