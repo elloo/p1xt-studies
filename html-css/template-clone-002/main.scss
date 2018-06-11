@@ -96,6 +96,9 @@ footer .list-group-item {
     margin-left: 0;
     padding-left: 0;
 }
+footer form {
+    background-color: #012b50;
+}
 
 @import "node_modules/bootstrap/scss/functions";
 @import "node_modules/bootstrap/scss/variables";
