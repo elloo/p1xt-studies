@@ -6,11 +6,11 @@ My main objective for this year is to gain the foundational skillset of a web de
 
 [Source](https://github.com/P1xt/speedstudy)
 
-Courses Completed: 1  
+Courses Completed: 2  
 [Extracurriculars](daily-logs/extracurriculars.md) <br>
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 3615
+Total Points earned: 3630
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -19,6 +19,7 @@ Total Points earned: 3615
 | 06/02/2018 | Basic project | 100 | [CSS Design](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/css-zen-garden) |
 | 05/05/2018 | Basic project | 100 | [Node Girls React Weather App](https://github.com/elloo/nodegirls-participation/tree/master/react-weather-app) |
 | 19/05/2018 | MOOC | 500 | [Programming for the Web with JavaScript](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/programming-for-the-web-with-javascript) |
+| WIP | Basic project | 100 | [Template Clone 002](https://github.com/elloo/p1xt-studies/tree/master/html-css/template-clone-002) |
 
 ---
 
