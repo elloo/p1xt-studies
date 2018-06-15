@@ -10,7 +10,7 @@ Courses Completed: 2
 [Extracurriculars](daily-logs/extracurriculars.md) <br>
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 3640
+Total Points earned: 3670
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -19,6 +19,8 @@ Total Points earned: 3640
 | 06/02/2018 | Basic project | 100 | [CSS Design](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/html-css/css-zen-garden) |
 | 05/05/2018 | Basic project | 100 | [Node Girls React Weather App](https://github.com/elloo/nodegirls-participation/tree/master/react-weather-app) |
 | 19/05/2018 | MOOC | 500 | [Programming for the Web with JavaScript](https://github.com/elloo/p1xt-js-2.0-guided-studies/tree/master/programming-for-the-web-with-javascript) |
+| 15/06/2018 | Blog Post on any topic | 15 | [Introduction to Systems Thinking](https://medium.com/@EweLinLoo/introduction-to-systems-thinking-f33a9e331520) |
+| 15/06/2018 | Blog Post on any topic | 15 | [Academy Xi: UX Elevate Week 1](https://medium.com/@EweLinLoo/academy-xi-ux-elevate-week-1-82663b15305d) |
 | WIP | Basic project | 100 | [Template Clone 002](https://github.com/elloo/p1xt-studies/tree/master/html-css/template-clone-002) |
 
 ---
