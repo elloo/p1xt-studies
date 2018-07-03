@@ -10,7 +10,7 @@ Courses Completed: 2
 [Extracurriculars](daily-logs/extracurriculars.md) <br>
 [Routine study](daily-logs/routine.md)
 
-Total Points earned: 3950
+Total Points earned: 4050
 
 | Date Finished | Activity | Points | Link / Description |
 | ------------- | -------- | ------ | ----- |
@@ -22,7 +22,7 @@ Total Points earned: 3950
 | 02/06/2018 | Book | 200 | ["Don't Make Me Think, Revisited" by Steve Krug](https://www.amazon.com.au/Dont-Make-Me-Think-Revisited/dp/0321965515/ref=dp_ob_title_bk) |
 | 15/06/2018 | Blog Post on any topic | 15 | [Introduction to Systems Thinking](https://medium.com/@EweLinLoo/introduction-to-systems-thinking-f33a9e331520) |
 | 15/06/2018 | Blog Post on any topic | 15 | [Academy Xi: UX Elevate Week 1](https://medium.com/@EweLinLoo/academy-xi-ux-elevate-week-1-82663b15305d) |
-| WIP | Basic project | 100 | [Template Clone 002](https://github.com/elloo/p1xt-studies/tree/master/html-css/template-clone-002) |
+| 03/07/2018 | Basic project | 100 | [Template Clone 002](https://github.com/elloo/p1xt-studies/tree/master/html-css/template-clone-002) |
 
 ---
 

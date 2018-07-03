@@ -5,10 +5,15 @@ $navbar-dark-hover-color: #fff;
 $navbar-light-color: #fff;
 $navbar-light-hover-color: #01325b;
 
-//********** Dropdown **********//
+//********** Dropdowns **********//
 $dropdown-link-hover-bg: #8baad7;
 $dropdown-link-color: #fff;
 $dropdown-bg: rgba(139, 170, 215, 0.5); 
+
+select {
+  width: 300px;
+  height: 50px;
+}
 
 //********** Fonts **********//
 $headings-font-family: Georgia,"Times New Roman",Times,serif;
