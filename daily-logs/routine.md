@@ -85,3 +85,4 @@
 | 03/07/2018 | Khan Academy (60 mins) | 20 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 04/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 05/07/2018 | Khan Academy (45 mins) | 15 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
+| 11/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
