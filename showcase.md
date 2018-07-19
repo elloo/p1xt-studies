@@ -12,12 +12,8 @@ __Pure CSS Images__
 __Bootstrap__
 
 * [Portfolio layout](http://htmlpreview.github.io/?https://github.com/elloo/my-studies/blob/master/html-css/fcc-portfolio-page/index.html)
+* [Template Clone 002](https://github.com/elloo/p1xt-studies/tree/master/html-css/template-clone-002)]
 
 __JavaScript__
 
 * [Calculator](http://htmlpreview.github.io/?https://github.com/elloo/p1xt-js-2.0-guided-studies/blob/master/programming-for-the-web-with-javascript/week2/homework3/calc.html)
-
-__Wordpress__
-
-* [Personal website](http://www.webeloo.com/)
-
