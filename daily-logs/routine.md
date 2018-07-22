@@ -92,3 +92,4 @@
 | 17/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 18/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
 | 19/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
+| 22/07/2018 | Khan Academy (30 mins) | 10 | [Algebra 2](https://www.khanacademy.org/mission/algebra2) |
