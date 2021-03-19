@@ -31,7 +31,7 @@ idna==2.6
 ipython-genutils==0.2.0
 isort==4.2.15
 itsdangerous==0.24
-Jinja2==2.9.6
+Jinja2==2.11.3
 jsbeautifier==1.6.14
 jsonschema==2.6.0
 jupyter-core==4.3.0
