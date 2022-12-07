@@ -17,7 +17,7 @@
   "author": "Ewe Lin Loo",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.18.2",
     "mongoose": "^5.0.14"
   }
 }
