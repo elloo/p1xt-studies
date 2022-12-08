@@ -6,7 +6,7 @@ beautifulsoup4==4.6.0
 bs4==0.0.1
 cairocffi==0.8.0
 CairoSVG==2.0.3
-certifi==2017.7.27.1
+certifi==2022.12.7
 cffi==1.10.0
 chardet==3.0.4
 check50==2.2.1
